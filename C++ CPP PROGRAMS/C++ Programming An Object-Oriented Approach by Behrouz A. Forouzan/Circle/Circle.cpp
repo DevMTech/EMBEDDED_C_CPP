@@ -39,7 +39,7 @@ Circle :: Circle ()
 * to create a new one. The source circle is already validated, *
 * which means that we do not need validation. *
 ***************************************************************/
-Circle :: Circle (const Circle& circle)
+Circle :: Circle (const Circle& circle) // Pass-by-reference in Copy constructor
 : radius (circle.radius)
 { }
 

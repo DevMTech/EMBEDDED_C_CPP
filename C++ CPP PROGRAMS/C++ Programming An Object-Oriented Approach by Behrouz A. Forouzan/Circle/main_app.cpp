@@ -16,8 +16,9 @@ int main ( )
 	cout << "Perimeter: " << circle1.getPerimeter() << endl;
 	cout << endl;
 	
+
 	// Instantiation of second object and applying operations
-	Circle circle2 (circle1);
+	Circle circle2 (circle1);  // Pass-by-reference in Copy constructor
 	cout << "Radius: " << circle2.getRadius() << endl;
 	cout << "Area: " << circle2.getArea() << endl;
 	cout << "Perimeter: " << circle2.getPerimeter() << endl;
