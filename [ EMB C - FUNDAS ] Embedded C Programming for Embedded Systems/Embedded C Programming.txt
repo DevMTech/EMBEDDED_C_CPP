@@ -1,0 +1,96 @@
+CPLD - Complex Programmable Logic Device
+
+Limited RAM, ROM, Stack, Processing power
+
+Code speed , Code Size(Flash size)
+
+Portability - Assembly language is not portable, assembly code is specific to MCU chosen
+			 Embedded C programs can be processor independent	
+
+Reliability
+
+Embedded C extras w.r.t. C programming:
+input/output hardware addressing
+fixed point arithmetic operations
+low level bit-wise data manipulations
+accessing the address spaces
+real-time constraints
+
+C++ issues with embedded programming: virtual function, exception handling
+
+auto (local) variables are allocated on Stack/Register bank (inside RAM)
+
+static variables are declared on 
+
+'static' and 'global' variables are allocated  in the 'heap' memory, located at the bottom of the SRAM
+
+local variables with 'auto' storage class are defined on the 'stack', located at the top of the SRAM
+
+relational operator '=='
+
+Function Declaration - name, return type, parameters of the function only
+
+Function Definition - actual function body(code) 
+
+int constants:
+int n;
+n=45;   		// decimal
+n=0b101101;		// binary 
+n=0x2d; 		// hex 0010 1101 = 2 D
+n=0X2D; 		// HEX
+n=055;  		// octal 101 101 = 5 5
+
+100d = 0b01100100 = 0144 = 0x64
+
+char ch = 0x61; // 'a'
+
+String constant:
+char name[] = "D M"; // char name[] = {'D', ' ', 'M', '\0'};
+
+uint8_t A, B, C;
+A = 0xFF; // 255d
+B = 0x64; // 100d
+
+C = A & B;
+C = A | B;
+B = ~ A; // negation/compliment
+C = A ^ B; -> odd number of 1's = 1
+C = A >> B;
+C = A << B;
+vacated bits are filled with 0s
+C = A >> 3; // RIGHT SHIFT BY 3 = DIVISION BY 8 (2 raised to 3)
+C = A << 4; // LEFT SHIFT BY 4 = MULTIPLICATION BY 16 (2 raised to 4)
+
+Bit Masking : LEFT SHIFT
+PORTA |= (1<<4) | (1<<5);  // SET BITS 4 & 5
+PORTA &= ~((1<<6) | (1<< 7)); // CLR BIT 6 & 7   
+PORTA = (PORTA | (1<<3)) & (~(1<<5)); // SET BIT 3 & CLR BIT 6
+
+	int A, B, C, H, L, i;
+	A = B = C = i = 0;
+
+    for(i = 0; i < 31; i++)
+    {  	A |= (1<<i);     //	printf("\n  %d  A = %d ", i, A ); // A = 0
+	}	
+	H = (A & 0xFFFF0000) >> 16;
+	L = A & 0xFFFF;
+	B = (H << 16) | L;
+	
+	printf("\n  A  = %d ", A );
+	printf("\n  AH = %d ", H );
+	printf("\n  AL = %d ", L );	
+	printf("\n  B  = %d ", B );
+	
+	printf("\n\n");
+
+    A = 7; // 0111
+    
+    printf("\n  A = %d ", A);
+    
+    A = (A | (1<<3)) & ~(1<<2); // 1011 // SET BIT 3 & CLR BIT 2
+    
+    printf("\n  A = %d ", A);
+    
+    A = A & ~(1<<3) | (1<<2);  // 0111 // CLR BIT 3 & SET BIT 2 
+    	
+	printf("\n  A = %d ", A);
