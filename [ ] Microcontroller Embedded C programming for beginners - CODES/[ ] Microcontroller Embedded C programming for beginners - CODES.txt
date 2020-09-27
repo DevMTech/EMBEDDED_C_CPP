@@ -1,0 +1,18 @@
+	
+	
+	Microcontroller Embedded C Programming: absolute beginners
+	https://www.udemy.com/course/microcontroller-embedded-c-programming/
+	https://github.com/niekiran/Embedded-C/tree/master/All_source_codes
+	
+	Embedded C programming for beginners
+	https://www.youtube.com/watch?v=yq6Sxamh5ZU
+	
+	https://www.udemy.com/user/kiran-nayak-2/
+	http://fastbitlab.com/
+	https://www.bharatisoft.in/
+	https://github.com/niekiran/
+	
+	https://in.linkedin.com/public-profile/in/fastbit-embedded-brain-academy-b3167b124
+	
+	Best Embedded Systems Courses
+	https://onlinecoursetutorials.com/courses/best-embedded-systems-courses-certifications-online/
