@@ -1,0 +1,4 @@
+load STM32F091RCTx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "F:\KeilWorkspace\STM32F091RC_NUCLEO\blinky_STM32F091RC_NUCLEO\RTE\Device\STM32F091RCTx\" 

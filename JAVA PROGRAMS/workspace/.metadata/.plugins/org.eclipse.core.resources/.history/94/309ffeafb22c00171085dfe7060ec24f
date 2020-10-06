@@ -1,0 +1,33 @@
+import java.util.HashMap;
+import java.util.Map;
+// Map stores key-value pair
+// Key would always be unique
+// Putting same key again in map, will replace the old value with the new value
+public class MapExample1 {
+
+	public static void main(String[] args) {
+		Map<String, Integer> scores = new HashMap<>();
+		
+		scores.put("Jeetu", 80);
+		scores.put("Sudhanshu", 75);
+		scores.put("Akshay", 71);
+		scores.put("Lalit", 81);
+
+		System.out.println(scores.get("Lalit")); 
+		scores.put("Lalit", 91); // putting same key diff value
+		System.out.println(scores.get("Lalit")); 
+		
+		//scores.remove("Akshay"); // remove from the map
+		//System.out.println(scores.get("Akshay"));
+		
+		System.out.println("------------------------------");
+		for(String key : scores.keySet()){
+			System.out.println(key +" "+ scores.get(key));
+		}
+		
+		
+		
+		
+	}
+
+}

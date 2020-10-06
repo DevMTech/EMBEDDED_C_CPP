@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class EMSMain 
+{
+	public static void main(String[] args)
+	{	Scanner scan = new Scanner(System.in);
+		do
+		{
+			System.out.println("1. Add new employ");
+			System.out.println("2. Search by EmpId");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			
+			int choice = scan.nextInt();
+			switch(choice)
+			{
+				case 1:// add employee
+					System.out.println("Enter Emp ID");
+					e.setEmpId(scan.nextInt());
+					break;
+				case 2:
+					break;
+				case 3:
+					break;
+				case 4:
+					break;
+				case 5:
+					break;
+				case 6:
+					break;	
+				case 7: //display emp count
+					
+				case 8: 
+					System.exit(0);
+				
+			}
+		}while(true);
+	}
+}

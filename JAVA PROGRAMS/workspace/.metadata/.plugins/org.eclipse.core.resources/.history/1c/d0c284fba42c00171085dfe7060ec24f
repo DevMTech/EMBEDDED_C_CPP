@@ -1,0 +1,43 @@
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+// Duplicates are not allowed in any of Set implementations
+// 
+public class SetExample2 {
+	public static void main(String[] args) {
+		Set<String> names = new LinkedHashSet<>();
+		
+		names.add("Jeetu");
+		names.add("Akshay");
+		names.add("Lalit");
+		names.add("Aditya");
+		names.add("Sudhanshu");
+		names.add("Lalit"); // duplicates are rejected
+		
+		System.out.println("\n\nbefore removing any entry : ");
+		
+		for(String name : names){
+			System.out.println(name);
+		}
+		
+		names.remove("Aditya");
+		
+		System.out.println("\n\nafter removing any entry : ");
+		
+		for(String name : names){
+			System.out.println(name);
+		}
+		
+		// If two objects are equal, their hashcode should be same.
+		// Reverse is not true.
+		
+		/*String x = new String("abc"),y=new String("abcd");
+		System.out.println(x.hashCode());
+		System.out.println(y.hashCode());*/
+		
+		System.out.println(names.contains("Lalit"));
+		
+		
+		
+	}
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class EMSMain 
+{
+	public static void main(String[] args)
+	{	Scanner scan = new Scanner(System.in);
+		do
+		{
+			System.out.println("1. Add new employ");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			
+			int choice = scan.nextInt();
+			switch(choice)
+			{
+			case 1:
+				break;
+			}
+		}
+	}
+}

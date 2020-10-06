@@ -1,0 +1,6 @@
+09:59:43 **** Incremental Build of configuration Debug for project Button_STM32F407VG_DISC ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:59:43 Build Finished (took 600ms)
+
