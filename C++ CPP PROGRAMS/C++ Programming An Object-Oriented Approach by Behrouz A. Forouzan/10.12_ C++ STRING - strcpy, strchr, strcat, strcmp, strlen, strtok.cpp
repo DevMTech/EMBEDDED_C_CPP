@@ -151,7 +151,7 @@ int main ( )
 		// Creating a string object
 		string strg ("Hello my friends");
 		size_t n = strg.size(); // Getting the size
-		// string::size_type n = strg.size(); // Getting the size
+		// string::size_type == size_t
 		string::size_type max_n = strg.max_size(); // Getting the maximum size
 		
 		// Test size, maximum size and capacity
