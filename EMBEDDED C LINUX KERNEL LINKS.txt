@@ -5,6 +5,15 @@
 	
 	ATmega328p Tutorial English
 	https://www.youtube.com/playlist?list=PLmo-IAQkDswKhHMydbBYNrB9EJ0aSkCoD
+	
+	Full Tutorial avrdude USBasp
+	https://www.youtube.com/playlist?list=PLozP2uQO8z1Q_eEOLzxq5vZELsKgcRfy3
+	
+			
+	Starting out with avrdude
+	https://www.ladyada.net/learn/avr/avrdude.html
+	https://linux.die.net/man/1/avrdude
+	https://medium.com/@ppatil/avr-programing-using-avrdude-in-ubuntu-93734c26ad19
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -43,11 +52,7 @@
 	
 	flash code to AVR board:
 	sudo ./upload_script
-	
-	Starting out with avrdude
-	https://www.ladyada.net/learn/avr/avrdude.html
-	https://linux.die.net/man/1/avrdude
-	https://medium.com/@ppatil/avr-programing-using-avrdude-in-ubuntu-93734c26ad19
+
 	
 	
 ---------------------------------------------------------------------------------------------------------------------------
