@@ -1,0 +1,236 @@
+
+
+	avr-gcc & avrdude makefile tutorial | Compile C & upload to AVR board (mac) | [ATmega328p Ep.1 en]
+	https://www.youtube.com/watch?v=iKqLbbyPydI
+	
+	ATmega328p Tutorial English
+	https://www.youtube.com/playlist?list=PLmo-IAQkDswKhHMydbBYNrB9EJ0aSkCoD
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Setting Up AVR-GCC toolchain and avrdude To Program An AVR Development Board In UBUNTU
+	http://www.linuxandubuntu.com/home/setting-up-avr-gcc-toolchain-and-avrdude-to-program-an-avr-development-board-in-ubuntu
+	
+	//sudo apt-get install avrdude gcc-avr avr-libc avrdude-doc codeblocks
+	
+	sudo apt-get install binutils gcc-avr avr-libc uisp avrdude flex byacc bison avrdude-doc
+	
+	
+	contents of 'compile_script':
+	avr-gcc -g -Os -mmcu=“microcontroller” -c “filename”.c
+	avr-gcc -g -mmcu=“microcontroller” -o “filename”.elf “filename”.o
+	avr-objcopy -j .text -j .data -O ihex “filename”.elf “filename”.hex
+	avr-size --format=avr --mcu=“microcontroller” “filename”.elf ​
+	
+	Here the filename that we want to compile is: led.c and 
+	the microcontroller is: atmega32​So the code becomes :- 
+	
+	avr-gcc -g -Os -mmcu=atmega32 -c led.c
+	avr-gcc -g -mmcu=atmega32 -o led.elf led.o
+	avr-objcopy -j .text -j .data -O ihex led.elf led.hex
+	avr-size --format=avr --mcu=atmega32 led.elf 
+	
+	add permisions:
+	sudo chmod 755 compile_script
+	
+	contents of 'upload_script':
+	avrdude -c arduino -p m32 -P /dev/ttyUSB0 -b 19200 -U flash:w:led.hex
+	
+	
+	add permisions:
+	sudo chmod 755 upload_script
+	
+	
+	flash code to AVR board:
+	sudo ./upload_script
+	
+	Starting out with avrdude
+	https://www.ladyada.net/learn/avr/avrdude.html
+	https://linux.die.net/man/1/avrdude
+	https://medium.com/@ppatil/avr-programing-using-avrdude-in-ubuntu-93734c26ad19
+	
+	
+---------------------------------------------------------------------------------------------------------------------------
+
+GDB TUTORIAL
+http://www.gdbtutorial.com/
+
+C Programming in Linux Tutorial #056 - GDB debugger (1/2)
+https://www.youtube.com/watch?v=rlN3XI8kuhI
+
+How to Debug a C or C++ Program on Linux Using gdb
+https://www.maketecheasier.com/debug-program-using-gdb-linux/
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Data Structures in the Linux Kernel
+
+Doubly linked list, B+ tree, priority heap, bit arrays, Radix tree...
+
+https://0xax.gitbooks.io/linux-insides/content/DataStructures/
+---------------------------------------------------------------------------------------------------------------------------
+
+TLDP : Chapter 15 Linux Data Structures
+https://tldp.org/LDP/tlk/ds/ds.html
+
+Linux Kernel Data Structures
+https://notes.eddyerburgh.me/operating-systems/linux/kernel-data-structures
+
+The Linux Channel: Kernel Data-Structures
+https://the-linux-channel.the-toffee-project.org/index.php?page=15-links-kernel-data-structures
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Linux Kernel Programming
+https://www.youtube.com/playlist?list=PL2TXDotVKyDBEfWSKcePqRRCp9EehqDGF
+
+Online Course - Networking Protocols
+https://www.youtube.com/playlist?list=PL2TXDotVKyDA6XMdzoe4JuO67IFAaFNOd
+
+Linux Kernel Networking Sub-system
+https://www.youtube.com/playlist?list=PL2TXDotVKyDC4Ts-rDKAr9AvlLt-3h7Ur
+
+https://www.youtube.com/channel/UCESk3ORdKJ1iQGibV_XiHhw/playlists
+
+Understanding Device Drivers
+https://www.youtube.com/watch?v=1STH2YvXLvE
+
+----------------------------------------------------------------------------------------------------------------------------
+
+The Linux Kernel Module Programming Guide v2.6.4 2007
+	https://tldp.org/LDP/lkmpg/2.6/html/index.html
+	https://www.linuxtopia.org/online_books/linux_kernel_index.html
+	https://www.youtube.com/playlist?list=PL16941B715F5507C5
+
+Linux Kernel Module Programming: Hello World Program
+	https://www.geeksforgeeks.org/linux-kernel-module-programming-hello-world-program/
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Data Structures and Algorithms - GEEKSFORGEE G4G
+https://www.geeksforgeeks.org/data-structures/
+
+ALGORITHMS
+https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+
+C++ Programming Language - GFG
+https://www.geeksforgeeks.org/c-plus-plus/
+
+https://www.geeksforgeeks.org/7-best-coding-challenge-websites-in-2020/
+
+GeeksForGeeksScrapper
+https://github.com/CuriousLearner/GeeksForGeeksScrapper/
+
+PRACTICE - GEEKSFORGEEKS
+https://practice.geeksforgeeks.org/home/
+
+QUIZ - PRACTICE QUESTIONS - GFG
+https://www.geeksforgeeks.org/quiz-corner-gq/
+
+GeeksForGeeks for practicing Coding
+https://www.youtube.com/watch?v=07QCAJYolaE
+
+All about Off-Campus Placements - GAMT
+https://www.youtube.com/playlist?list=PL4PCksYQGLJM2mKe1n8LnFgcm3FRLhxZ9
+
+---------------------------------------------------------------------------------------------------------------------------
+
+GEEKSFORGEEKS free courses - C, C++, JAVA, PYTHON
+
+Fundamentals of Programming with C
+https://practice.geeksforgeeks.org/courses/AKTU-First-Year
+
+https://www.geeksforgeeks.org/c-programming-language/
+
+C++ Fork CPP
+https://practice.geeksforgeeks.org/courses/fork-cpp/
+
+Data Structures and Algorithms
+https://practice.geeksforgeeks.org/courses/dsa-self-paced-preview
+
+https://practice.geeksforgeeks.org/courses/fork-java/
+
+https://practice.geeksforgeeks.org/courses/fork-python/
+
+Placement Preparation Course
+https://practice.geeksforgeeks.org/courses/placement-preparation-course
+
+---------------------------------------------------------------------------------------------------------------------------
+
+LINUX Operating Systems - GEEKSFORGEEKS
+https://www.geeksforgeeks.org/operating-systems/
+
+https://ide.geeksforgeeks.org/
+
+https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ
+
+https://www.geeksforgeeks.org/paging-in-operating-system/
+
+https://practice.geeksforgeeks.org/problems/what-is-concurrency
+
+https://practice.geeksforgeeks.org/problems/what-is-shared-memory
+
+https://www.geeksforgeeks.org/introduction-of-process-management/
+
+https://www.geeksforgeeks.org/introduction-of-process-synchronization/
+
+https://www.geeksforgeeks.org/process-table-and-process-control-block-pcb/
+
+https://practice.geeksforgeeks.org/problems/what-is-mutex-in-os
+
+https://www.geeksforgeeks.org/semaphores-in-process-synchronization/
+
+https://practice-stage.geeksforgeeks.org/proble…
+---------------------------------------------------------------------------------------------------------------------------
+
+Linux/Unix System Programming -Operating Systems - Shriram Vasudevan
+https://www.youtube.com/playlist?list=PL3uLubnzL2Tlbyrr2GFVRE7Azo8FJe-dJ
+
+The Complete Linux Course: Beginner to Power User!
+https://www.youtube.com/watch?v=wBp0Rb-ZJak
+
+https://www.youtube.com/watch?v=6OSeJFo6GOc
+---------------------------------------------------------------------------------------------------------------------------
+
+	
+	Linux Wi-Fi Driver Tutorial: How to Write a Simple Linux Wireless Driver Prototype
+	https://www.apriorit.com/dev-blog/645-lin-linux-wi-fi-driver-tutorial-how-to-write-simple-linux-wireless-driver-prototype
+
+	Linux Driver Tutorial: How to Write a Simple Linux Device Driver
+	https://www.apriorit.com/dev-blog/195-simple-driver-for-linux-os
+
+	Learning Linux for embedded systems
+	Getting started with Embedded Linux: Part 1 -7
+	September 5, 2013 Michael Eager
+	https://www.embedded.com/learning-linux-for-embedded-systems/
+
+	The Linux USB sub-system - Brad Hards
+	http://www.linux-usb.org/USB-guide/book1.html
+	
+	Linux Kongress 2002 - Linux USB
+	http://www.linux-usb.org/lk-02/
+	
+---------------------------------------------------------------------------------------------------------------------------
+
+FFmpeg Developer Documentation
+https://ffmpeg.org/developer.html
+
+Using Valgrind to Find Memory Leaks and Invalid Memory Use
+https://www.cprogramming.com/debugging/valgrind.html
+
+RidgeRun Embedded Linux Developer Connection
+https://developer.ridgerun.com/wiki/index.php?title=Main_Page
+
+Experience in debugging tools like GDB, valgrind, etc.
+
+Experience on multimedia technologies like – GStreamer, FFMPEG, OpenMAX, audio/video codecs, streaming,
+---------------------------------------------------------------------------------------------------------------------------
+
+…
+Getting Started with VS Code and PlatformIO IDE for ESP32 and ESP8266 (Windows, Mac OS X, Linux Ubuntu)
+https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/
+
+Windows 10 setup for developers - WSL2, Windows Terminal, Ubuntu
+https://nomadcoders.co/
+---------------------------------------------------------------------------------------------------------------------------	
