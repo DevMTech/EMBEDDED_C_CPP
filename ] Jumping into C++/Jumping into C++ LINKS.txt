@@ -1,0 +1,22 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	C Programming in Linux Tutorial
+	https://www.youtube.com/playlist?list=PLypxmOPCOkHXbJhUgjRaV2pD9MJkIArhg
+	
+	GDB
+	https://www.cprogramming.com/gdb.html
+	http://www.gdbtutorial.com/tutorial/commands
+	http://www.onlinegdb.com/
+	
+	Debugging with Visual Studio 2005/2008, Part 1: Debugging Concepts
+	https://www.cprogramming.com/tutorial/debugging_concepts.html
+	
+	
+	5 Ways You can Learn Programming Faster
+	https://www.cprogramming.com/how_to_learn_to_program.html?inl=pf
+	
+	
+	
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
