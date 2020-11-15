@@ -523,22 +523,119 @@ void main()
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+int a;
+int *IntPtr;
+int *IntPointers[20];
+IntPtr = *IntPointers; // contents of 1st element
+a = **IntPointers; // Same as a = *IntPtr;
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*(*(a+i) + j) == a[i][j]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#include <iostream>
+#include <conio>
+#include <stdio>
+
+int Add(int a, int b)
+{
+	return a+b;
+}
+
+int Subtract(int a, int b)
+{
+	return a-b;
+}
+
+int Multiply(int a, int b)
+{
+	return a*b;
+}
+
+int main()
+{
+	int (*CalcFuncPtr) (int, int);
+	int a, b, result;
+	char op;
+
+	cout << " Enter two integer values : "<< endl;
+	cin >> a >> b;
+	cout << " Enter +, -, * to add, subtract, multiply : " << endl;
+	op = getch(); // getch() reads the key pressed
+
+	switch(op)
+	{
+		case '+': CalcFuncPtr = Add; break;
+		case '-': CalcFuncPtr = Subtract; break;
+		case '*': CalcFuncPtr = Multiply;
+
+	}
+
+	result = CalcFuncPtr(a, b);
+
+	cout << " Result : " << result << endl;
+
+	return 0;
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FUNCTION POINTER VS FUNCTION RETURNING POINTER !!
+
+//A function with the name FuncRetPtr that receives two int type parameters
+//and returns a pointer to an int is declared as follows:
+int *FuncRetPtr(int, int); // function declaration with return type 'int *'
+
+// re-interpret above line as:
+int *   FuncRetPtr(int, int); // OR
+(int *) FuncRetPtr(int, int); // THIS
+
+// a pointer to a function taking two int type parameters and 
+// returning an int type value:
+int (*FunctionPtr)(int, int); 
+
+// FuncRetPtr is a function name and therefore is a constant pointer.
+// FunctionPtr is a pointer variable.
+
+// now the following function ptr can be used as 
+int * (*FuncPtr) (int, int);  // ptr to 'int * FuncRetPtr(int, int)' function
+
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+VOID POINTER
+
+int a; // declaration of an int
+float b; // declaration of a float
+void *VoidPtr; // declaration of a void pointer
+int Add(int,int); // declaration of a function
+
+VoidPtr = &a; 	// int address assigned to void pointer
+VoidPtr = &b; 	// float address assigned to void pointer
+VoidPtr = Add; 	// function address assigned to void pointer
+
+// The advantage when using pointers to void is that the same pointer can be used to
+// point to many different types of entities without needing to create specific pointers
+// to specific objects.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+int * IntPtr = new int(0); // int initialized to 0
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+int * IntArrPtr = new int[10];
 
+int (* 2DArrRow[10]) = new int [10][20];
+if(2DArrRow == NULL)
+	{
+		cout << " Memory allocation failed ! ";
+		exit(1);
+	}
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+delete IntPtr;
 
+delete IntArrPtr;
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+delete 2DArrRow;
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
