@@ -1,0 +1,120 @@
+!SESSION 2017-06-04 10:49:55.913 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data @user.home/Documents/LPCXpresso_8.2.2_650/workspace
+
+!ENTRY org.eclipse.ui 4 4 2017-06-04 10:50:04.248
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-06-04 10:50:04.248
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:56.112
+!MESSAGE Indexed 'CMSISv1p30_LPC17xx' (2 sources, 7 headers) in 0.547 sec: 1,201 declarations; 2,088 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:56.362
+!MESSAGE Indexed 'CMSISv2p00_LPC17xx' (2 sources, 9 headers) in 0.234 sec: 1,211 declarations; 2,133 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:56.628
+!MESSAGE Indexed 'Example01_eq_prio' (2 sources, 19 headers) in 0.25 sec: 1,535 declarations; 2,252 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:56.847
+!MESSAGE Indexed 'Example02_equ_prio_reentrant' (2 sources, 17 headers) in 0.204 sec: 1,450 declarations; 2,112 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:57.034
+!MESSAGE Indexed 'Example03_unequ_prio_reentrant' (2 sources, 17 headers) in 0.172 sec: 1,450 declarations; 2,112 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:57.253
+!MESSAGE Indexed 'Example04_unequ_prio_delay' (2 sources, 17 headers) in 0.203 sec: 1,449 declarations; 2,113 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:57.456
+!MESSAGE Indexed 'Example05_heartbeat_plus_Timers_unequ_prio_delalyuntil' (2 sources, 17 headers) in 0.188 sec: 1,478 declarations; 2,220 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:57.690
+!MESSAGE Indexed 'Example05_heartbeat_plus_unequ_prio_delalyuntil' (2 sources, 22 headers) in 0.218 sec: 1,778 declarations; 2,478 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:57.878
+!MESSAGE Indexed 'Example05_unequ_prio_delalyuntil' (2 sources, 17 headers) in 0.172 sec: 1,464 declarations; 2,179 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:58.081
+!MESSAGE Indexed 'Example06_unequ_preemption' (2 sources, 17 headers) in 0.188 sec: 1,456 declarations; 2,131 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:58.487
+!MESSAGE Indexed 'Example07_unequ_prio_idle' (2 sources, 17 headers) in 0.375 sec: 1,450 declarations; 2,115 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:58.659
+!MESSAGE Indexed 'Example08_unequ_prio_preemptions' (2 sources, 17 headers) in 0.156 sec: 1,453 declarations; 2,123 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:58.862
+!MESSAGE Indexed 'Example09_handle_deletion' (2 sources, 17 headers) in 0.187 sec: 1,452 declarations; 2,116 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:59.081
+!MESSAGE Indexed 'Example10_ipc_mq1' (2 sources, 18 headers) in 0.188 sec: 1,525 declarations; 2,211 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:59.300
+!MESSAGE Indexed 'Example11_ipc_mq2' (2 sources, 18 headers) in 0.203 sec: 1,529 declarations; 2,223 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:59.503
+!MESSAGE Indexed 'Example12_irq_isr_task1' (2 sources, 19 headers) in 0.172 sec: 1,545 declarations; 2,305 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:59.706
+!MESSAGE Indexed 'Example13_irq_isr_task2' (2 sources, 19 headers) in 0.203 sec: 1,530 declarations; 2,228 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:00:59.909
+!MESSAGE Indexed 'Example14_irq_isr_task3' (2 sources, 18 headers) in 0.187 sec: 1,539 declarations; 2,230 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:01:00.112
+!MESSAGE Indexed 'Example15_lock_mutex' (2 sources, 20 headers) in 0.187 sec: 1,800 declarations; 2,343 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:01:00.315
+!MESSAGE Indexed 'Example16_gatekeeper' (2 sources, 20 headers) in 0.187 sec: 1,804 declarations; 2,353 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:01:00.753
+!MESSAGE Indexed 'Example17_tracing' (9 sources, 29 headers) in 0.422 sec: 2,355 declarations; 4,988 references; 0 unresolved inclusions; 19 syntax errors; 3 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:01:01.206
+!MESSAGE Indexed 'Example18_task_statistics' (9 sources, 26 headers) in 0.359 sec: 2,365 declarations; 4,999 references; 0 unresolved inclusions; 19 syntax errors; 3 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:01:01.550
+!MESSAGE Indexed 'FreeRTOS_Library' (7 sources, 25 headers) in 0.313 sec: 2,122 declarations; 4,729 references; 0 unresolved inclusions; 19 syntax errors; 3 unresolved names (0.044%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-04 11:01:02.378
+!MESSAGE Indexed 'Lib_MCU' (24 sources, 34 headers) in 0.781 sec: 4,162 declarations; 20,136 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2017-06-10 18:04:42.173 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2017-06-10 18:04:56.535
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-06-10 18:04:56.582
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2017-06-10 18:14:40.878 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2017-06-10 18:14:47.427
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-06-10 18:14:47.427
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2017-06-10 23:08:09.576 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2017-06-10 23:08:28.079
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-06-10 23:08:28.141
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator

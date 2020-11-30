@@ -1,0 +1,7 @@
+18:27:24 **** Clean-only build of configuration Debug for project Example13_irq_isr_task2 ****
+make -r clean 
+rm -rf  ./cr_startup_lpc17.o ./main.o  ./cr_startup_lpc17.d ./main.d  Example13_irq_isr_task2.axf
+ 
+
+18:27:24 Build Finished (took 313ms)
+

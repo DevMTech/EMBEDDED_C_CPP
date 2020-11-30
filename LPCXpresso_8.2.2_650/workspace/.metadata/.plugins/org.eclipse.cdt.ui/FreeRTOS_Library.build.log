@@ -1,0 +1,13 @@
+23:22:05 **** Build of configuration Debug for project FreeRTOS_Library ****
+make -r all 
+Building file: ../portable/heap_2.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -I"C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\FreeRTOS_Library\include" -I"C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\CMSISv1p30_LPC17xx" -I"C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\FreeRTOS_Library\portable" -I"C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\FreeRTOS_Library\demo_code" -O1 -g3 -Wall -c -fmessage-length=0 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"portable/heap_2.d" -MT"portable/heap_2.o" -MT"portable/heap_2.d" -o "portable/heap_2.o" "../portable/heap_2.c"
+In file included from C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\FreeRTOS_Library\include/FreeRTOS.h:67:0,
+                 from ../portable/heap_2.c:69:
+C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\FreeRTOS_Library\include/FreeRTOSConfig.h:42:21: fatal error: LPC17xx.h: No such file or directory
+compilation terminated.
+make: *** [portable/heap_2.o] Error 1
+
+23:22:05 Build Finished (took 203ms)
+

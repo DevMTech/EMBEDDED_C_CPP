@@ -1,0 +1,11 @@
+23:22:05 **** Incremental Build of configuration Debug for project Example08_unequ_prio_preemptions ****
+make -r all 
+Building target: Example08_unequ_prio_preemptions.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\CMSISv2p00_LPC17xx\Debug" -L"C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\FreeRTOS_Library\Debug" -Xlinker --gc-sections -Xlinker -Map=Example08_unequ_prio_preemptions.map -mcpu=cortex-m3 -mthumb -T "Example08_unequ_prio_preemptions_Debug.ld" -o "Example08_unequ_prio_preemptions.axf"  ./cr_startup_lpc17.o ./main.o   -lCMSISv2p00_LPC17xx -lFreeRTOS_Library
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld.exe: cannot find -lFreeRTOS_Library
+collect2.exe: error: ld returned 1 exit status
+make: *** [Example08_unequ_prio_preemptions.axf] Error 1
+
+23:22:06 Build Finished (took 203ms)
+

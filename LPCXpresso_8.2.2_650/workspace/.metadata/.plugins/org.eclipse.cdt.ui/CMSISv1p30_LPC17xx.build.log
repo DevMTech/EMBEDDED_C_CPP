@@ -1,0 +1,12 @@
+23:21:59 **** Build of configuration Debug for project CMSISv1p30_LPC17xx ****
+make -r all 
+Building file: ../src/core_cm3.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__REDLIB__ -I"C:\Users\Debajyoti Maitra\Documents\LPCXpresso_8.2.2_650\workspace\CMSISv1p30_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/core_cm3.d" -MT"src/core_cm3.o" -MT"src/core_cm3.d" -o "src/core_cm3.o" "../src/core_cm3.c"
+C:\Users\DEBAJY~1\AppData\Local\Temp\ccjfajRR.s: Assembler messages:
+C:\Users\DEBAJY~1\AppData\Local\Temp\ccjfajRR.s:874: Error: registers may not be the same -- `strexb r3,r2,[r3]'
+C:\Users\DEBAJY~1\AppData\Local\Temp\ccjfajRR.s:926: Error: registers may not be the same -- `strexh r3,r2,[r3]'
+make: *** [src/core_cm3.o] Error 1
+
+23:21:59 Build Finished (took 156ms)
+
