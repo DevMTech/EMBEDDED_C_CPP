@@ -1,0 +1,1 @@
+stm32s103c8_bluepill_test_1\startup_stm32f103xb.o: startup_stm32f103xb.s

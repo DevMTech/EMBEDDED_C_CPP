@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'HCLK_FREQ_CK_STM32F407VG_DISC' 
- * Target:  'HCLK_FREQ_CK_STM32F407VG_DISC' 
+ * Project: 'STM32S103C8_BLUEPILL_TEST_1' 
+ * Target:  'STM32S103C8_BLUEPILL_TEST_1' 
  */
 
 #ifndef RTE_COMPONENTS_H
@@ -14,7 +14,7 @@
 /*
  * Define the Device Header File: 
  */
-#define CMSIS_device_header "stm32f4xx.h"
+#define CMSIS_device_header "stm32f10x.h"
 
 
 
