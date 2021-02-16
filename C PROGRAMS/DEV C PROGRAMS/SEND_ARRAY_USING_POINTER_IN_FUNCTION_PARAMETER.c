@@ -41,7 +41,7 @@ int main()
 	 printf("size of array = %d \n\n", size);
 	 
      // use any of the two statements, both work same 
-     //myfuncn(&var_arr, 7);
+     //myfuncn(&var_arr, size);
      myfuncn(var_arr, size); // doesn't matter if '&' is not written, result is same
      
      return 0;

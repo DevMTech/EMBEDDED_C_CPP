@@ -1,0 +1,28 @@
+
+	cdecl
+	C gibberish ↔ English
+	https://cdecl.org/
+		
+	int (*(*foo)(void ))[3]
+	foo is a pointer to a function(void) that returns a pointer to an array of 3 ints 
+	
+	char (*(*x())[5])() 
+	x is a function that returns a pointer to an array of 5  pointers to function returning char
+
+	const int (* volatile bar)[64]
+	bar is a volatile pointer to an array of 64 const ints
+	
+	(double (^)(int , long long ))foo
+	cast foo into block(int, long long) returning double
+	
+	Reading C type declarations
+	http://www.unixwiz.net/techtips/reading-cdecl.html
+	http://www.unixwiz.net/techtips/index.html
+	
+	
+	c++decl(1) - Linux man page
+	https://linux.die.net/man/1/c++decl
+	
+
+	
+	

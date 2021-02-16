@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html class="discourse-comment"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <link href="comments_data/embed_98e606a919ff0e4ca0eaab9d82efc14d45f9783a.css" media="all" rel="stylesheet" data-target="embed">
+      <link href="comments_data/embedded_theme_3_89a4925a9bf74c46f16c107a63c1bdfc1838dc8a.css" media="all" rel="stylesheet" data-target="embedded_theme" data-theme-id="3">
+    <link rel="preload" href="comments_data/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf.js" as="script">
+<script src="comments_data/break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf.js"></script>
+
+
+      <title>How to debug a HardFault on an ARM Cortex-M MCU | Interrupt - Blog - Interrupt</title>
+
+    <meta id="data-embedded" data-referer="https://interrupt.memfault.com/blog/cortex-m-fault-debug">
+    <link rel="preload" href="comments_data/embed-application-9cef8308c816fc1d83137e63d6c556c6cc2b68fe2b6.js" as="script">
+<script src="comments_data/embed-application-9cef8308c816fc1d83137e63d6c556c6cc2b68fe2b6.js"></script>
+
+
+    
+  </head>
+  <body>
+    <header class="discourse" data-embed-state="loaded">
+    <a class="button" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/2">Continue Discussion</a>
+  <span class="replies">15 replies</span>
+</header>
+
+    <article class="post" id="post-172">
+      <a title="November 28, 2019  6:27am" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/2">Nov '19</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/TorstenRobitzki" target="_blank"><img src="comments_data/27_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/TorstenRobitzki" target="_blank" class="new-user">Torsten<wbr>​Robitzki</a>
+        </h3>
+        <p>There seems to be pictures in the article with URL that do not work (<a href="https://interrupt.memfault.comimg/cortex-m-fault/ufsr.png" rel="nofollow noopener" target="_blank">https://interrupt.memfault.comimg/cortex-m-fault/ufsr.png</a> for example)</p>
+
+            <a data-link-to-post="178" class="post-replies button" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/2" target="_blank">1 reply</a>
+      </div>
+    </article>
+    <article class="post" id="post-178">
+      <a title="December  3, 2019  9:30pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/3">Dec '19</a>
+        <a data-link-to-post="172" class="in-reply-to" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/2">▶ TorstenRobitzki</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/chrisc" target="_blank"><img src="comments_data/22_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/chrisc" target="_blank" class="staff">chrisc</a>
+        </h3>
+        <p>Thanks for the report! I do see there’s an issue in the link you posted (missing <code>/</code> between <code>com</code> &amp; <code>img</code>) but I can’t find a reference to that link anywhere in the article. The url looks correct in the <a href="https://interrupt.memfault.com/blog/cortex-m-fault-debug#ufsr" target="_blank">section</a> it is referenced.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-179">
+      <a title="December  4, 2019  6:06am" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/4">Dec '19</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/TorstenRobitzki" target="_blank"><img src="comments_data/27_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/TorstenRobitzki" target="_blank" class="new-user">Torsten<wbr>​Robitzki</a>
+        </h3>
+        <p>That’s how the article looks to me:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://aws1.discourse-cdn.com/standard14/uploads/memfault/original/1X/0a6fb42d01491091d76592ec2b02508a6d2df6d1.png" data-download-href="/uploads/short-url/1uk68CBGhZUDUpZccrjT74sWmMF.png?dl=1" title="30" rel="nofollow noopener" target="_blank"><img src="comments_data/0a6fb42d01491091d76592ec2b02508a6d2df6d1_2_435x500.png" alt="30" data-base62-sha1="1uk68CBGhZUDUpZccrjT74sWmMF" srcset="comments_data/0a6fb42d01491091d76592ec2b02508a6d2df6d1_2_435x500.png 1x, comments_data/0a6fb42d01491091d76592ec2b02508a6d2df6d1_2_652x750.png 1.5x, comments_data/0a6fb42d01491091d76592ec2b02508a6d2df6d1_2_870x1000.png 2x" data-small-upload="https://aws1.discourse-cdn.com/standard14/uploads/memfault/optimized/1X/0a6fb42d01491091d76592ec2b02508a6d2df6d1_2_10x10.png" width="435" height="500"></a></div><p></p>
+
+            <a data-link-to-post="183" class="post-replies button" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/4" target="_blank">1 reply</a>
+      </div>
+    </article>
+    <article class="post" id="post-183">
+      <a title="December  9, 2019  4:11pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/5">Dec '19</a>
+        <a data-link-to-post="179" class="in-reply-to" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/4">▶ TorstenRobitzki</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/chrisc" target="_blank"><img src="comments_data/22_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/chrisc" target="_blank" class="staff">chrisc</a>
+        </h3>
+        <p>The issue should now be <a href="https://github.com/memfault/interrupt/commit/925ca12adfd0cf3d8ff7bee5f296b59cd3689bee" target="_blank">fixed</a>. Thanks for the report!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-404">
+      <a title="May 16, 2020  7:24pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/6">May '20</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/Kongu" target="_blank"><img src="comments_data/45_002.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/Kongu" target="_blank" class="new-user">Kongu</a>
+        </h3>
+        <pre><code class="lang-auto">__attribute__((optimize("O0")))
+void my_fault_handler_c(sContextStateFrame *frame) {
+  // If and only if a debugger is attached, execute a breakpoint
+  // instruction so we can take a look at what triggered the fault
+  HALT_IF_DEBUGGING();
+</code></pre>
+<p>In this code section I would like to understand how the frame 
+parameter would get optimized out if we didn’t use optimization level 
+O0.</p>
+
+            <a data-link-to-post="405" class="post-replies button" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/6" target="_blank">1 reply</a>
+      </div>
+    </article>
+    <article class="post" id="post-405">
+      <a title="May 16, 2020  9:25pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/7">May '20</a>
+        <a data-link-to-post="404" class="in-reply-to" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/6">▶ Kongu</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/chrisc" target="_blank"><img src="comments_data/22_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/chrisc" target="_blank" class="staff">chrisc</a>
+        </h3>
+        <p>Hi <a class="mention" href="https://community.memfault.com/u/kongu" target="_blank">@Kongu</a>,</p>
+<p>Good observation! You are right that in this <em>exact</em> scenario it should not be necessary and could be removed.</p>
+<p>If the function was marked <code>static</code> or link time 
+optimization (LTO) was being used during compilation, the compiler could
+ optimize away passing the argument in the first place since it’s not 
+actually referenced in the function. If the <code>HALT_IF_DEBUGGING()</code> macro was commented out, the compiler may optimize out the function call altogether since nothing was happening in it.</p>
+<p>You can use compiler explorer to see examples of these types of optimizations <a href="https://godbolt.org/z/yYgqra" target="_blank">here</a>.</p>
+
+            <a data-link-to-post="406" class="post-replies button" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/7" target="_blank">1 reply</a>
+      </div>
+    </article>
+    <article class="post" id="post-406">
+      <a title="May 16, 2020 10:25pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/8">May '20</a>
+        <a data-link-to-post="405" class="in-reply-to" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/7">▶ chrisc</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/Kongu" target="_blank"><img src="comments_data/45_002.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/Kongu" target="_blank" class="new-user">Kongu</a>
+        </h3>
+        <p>Thank you Chris.<br>
+With the help of the tool now I understand how the optimization takes place.<br>
+Nice article BTW.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-449">
+      <a title="May 26, 2020 12:03am" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/9">May '20</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/rookie" target="_blank"><img src="comments_data/45.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/rookie" target="_blank" class="">rookie</a>
+        </h3>
+        <p>Hi! Thanks for this amazing high quality resource. I have 
+struggled with debugging an imprecise fault and this was very helpful. I
+ have a few questions:</p>
+<ul>
+<li>The tower of terror bug is interesting although not uncommon, what I
+ thought was cool is all those crash logs you got. How I wish I had such
+ logs to go through on a failed device from the field. Can you give us 
+some insight into how such logging can be provisioned?</li>
+<li>How many times have you found yourself needing/using ETM tracing, 
+since those analyzers tend to be very expensive. Any interesting use 
+cases?</li>
+</ul>
+
+            <a data-link-to-post="455" class="post-replies button" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/9" target="_blank">1 reply</a>
+      </div>
+    </article>
+    <article class="post" id="post-455">
+      <a title="May 27, 2020  5:57am" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/10">May '20</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/francois" target="_blank"><img src="comments_data/45_005.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/francois" target="_blank" class="staff">francois</a>
+        </h3>
+        <p>Hey <a class="mention" href="https://community.memfault.com/u/rookie" target="_blank">@rookie</a>, welcome to Interrupt!</p>
+<aside class="quote no-group" data-username="rookie" data-post="9" data-topic="106">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" src="comments_data/40_002.png" class="avatar" width="20" height="20"> rookie:</div>
+<blockquote>
+<ul>
+<li>The tower of terror bug is interesting although not uncommon, what I
+ thought was cool is all those crash logs you got. How I wish I had such
+ logs to go through on a failed device from the field. Can you give us 
+some insight into how such logging can be provisioned?</li>
+</ul>
+</blockquote>
+</aside>
+<p>This probably isn’t the answer you’re looking for, but in-the-field crash logging is what <a class="mention" href="https://community.memfault.com/u/chrisc" target="_blank">@chrisc</a>, <a class="mention" href="https://community.memfault.com/u/tyler" target="_blank">@tyler</a>, and I offer at <a href="https://memfault.com/" target="_blank">Memfault</a>. Shoot us a note if you’d like to learn more: <a href="mailto:hello@memfault.com" target="_blank">hello@memfault.com</a></p>
+<aside class="quote no-group" data-username="rookie" data-post="9" data-topic="106">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" src="comments_data/40_002.png" class="avatar" width="20" height="20"> rookie:</div>
+<blockquote>
+<ul>
+<li>How many times have you found yourself needing/using ETM tracing, 
+since those analyzers tend to be very expensive. Any interesting use 
+cases?</li>
+</ul>
+</blockquote>
+</aside>
+<p>Note that you do not need to shell out for a proprietary analyzer. 
+There are several open source tools that support ETM. Check out <a href="https://sigrok.org/wiki/Protocol_decoder:Arm_etmv3" target="_blank">Sigrok</a> if you need a tool, and <a href="https://github.com/Linaro/OpenCSD" target="_blank">OpenCSD</a> if you need a library.</p>
+<p>Hang tight, we’ll be writing more about ETM/ITM/DTW. There are some great use cases for it!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-502">
+      <a title="June 10, 2020  8:00am" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/11">Jun '20</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/dnsglk" target="_blank"><img src="comments_data/45_003.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/dnsglk" target="_blank" class="new-user">dnsglk</a>
+        </h3>
+        <p>Hi <a class="mention" href="https://community.memfault.com/u/chrisc" target="_blank">@chrisc</a>,<br>
+if I’m not mistaken there is a typo in the example with examining BusFault sub-register<br>
+<code>print/x *(uint8_t *)0xE00</code><strong>2</strong><code>ED29</code></p>
+<p>shouldn’t it be</p>
+<p><code>print/x *(uint8_t *)0xE00</code><strong>0</strong><code>ED29</code>   ?</p>
+<p>Also, couldn’t help but wanted to mention, that your blog is a great source of knowledge. Thanks!<br>
+Deni</p>
+
+            <a data-link-to-post="504" class="post-replies button" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/11" target="_blank">1 reply</a>
+      </div>
+    </article>
+    <article class="post" id="post-504">
+      <a title="June 10, 2020  4:07pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/12">Jun '20</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/chrisc" target="_blank"><img src="comments_data/22_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/chrisc" target="_blank" class="staff">chrisc</a>
+        </h3>
+        <aside class="quote no-group" data-username="dnsglk" data-post="11" data-topic="106">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" src="comments_data/40.png" class="avatar" width="20" height="20"> dnsglk:</div>
+<blockquote>
+<p>if I’m not mistaken there is a typo in the example with examining BusFault sub-register<br>
+<code>print/x *(uint8_t *)0xE00</code> <strong>2</strong> <code>ED29</code></p>
+<p>shouldn’t it be</p>
+<p><code>print/x *(uint8_t *)0xE00</code> <strong>0</strong> <code>ED29</code> ?</p>
+</blockquote>
+</aside>
+<p>Hi <a class="mention" href="https://community.memfault.com/u/dnsglk" target="_blank">@dnsglk</a>, that is correct, great catch! Thanks for pointing it out, I’ll fix that up in the article!</p>
+<blockquote>
+<p>Also, couldn’t help but wanted to mention, that your blog is a great source of knowledge. Thanks!</p>
+</blockquote>
+<p>Thanks, glad to hear you are enjoying!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-588">
+      <a title="August  8, 2020  1:59pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/13">Aug '20</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/chandan_bhatia" target="_blank"><img src="comments_data/44_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/chandan_bhatia" target="_blank" class="">chandan_<wbr>​bhatia</a>
+        </h3>
+        <p><a class="mention" href="https://community.memfault.com/u/chrisc" target="_blank">@chrisc</a>
+ First thanks for great blog. I am facing some issue in understanding 
+assembly code at HARDFAULT_HANDLING_ASM. I got the idea that first you 
+are checking active stack pointer using 2nd bit so using ‘tst’ 
+instruction for AND operation on ‘lr’ with 0x100 to get only second bit.
+ Latest using ite for comparing data but not sure which value, may be 
+condition flags. I didn’t understand next 2 instruction mrseq and mrsne.
+ Can you please explain it?</p>
+
+            <a data-link-to-post="593" class="post-replies button" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/13" target="_blank">1 reply</a>
+      </div>
+    </article>
+    <article class="post" id="post-593">
+      <a title="August 11, 2020  8:59am" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/14">Aug '20</a>
+        <a data-link-to-post="588" class="in-reply-to" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/13">▶ chandan_bhatia</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/chandan_bhatia" target="_blank"><img src="comments_data/44_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/chandan_bhatia" target="_blank" class="">chandan_<wbr>​bhatia</a>
+        </h3>
+        <p>Also I was think, If we are working with bare metal, what 
+should be return address during recovery ? If we return to any line of 
+main(), there is possibility that arm registers (R0-R12)are holding 
+incorrect value and this can lead to unexpected behavior of system, 
+Correct ?</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-874">
+      <a title="January 16, 2021  8:50pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/15">16 Jan</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/nathancharlesjones" target="_blank"><img src="comments_data/45_004.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/nathancharlesjones" target="_blank" class="new-user">nathancharlesjones</a>
+        </h3>
+        <p>Great rundown, as always, fellas. I have a question about 
+jumping to the C fault handler after identifying which SP was in use at 
+the time of the HardFault, based on some things Joseph You says in “The 
+Definitive Guide to the M0/M0+”. Isn’t it true that if the HardFault was
+ the result of a stack overflow, then the SP (and/or the memory it 
+points to) might not be valid? In that case, wouldn’t it be problematic 
+to jump to a C function since that function might use the stack? Or 
+maybe a better question is why don’t I see this sort of SP checking in 
+the assembly language portion of the HardFault handler? None of the ones
+ I’ve seen (yours, Segger’s, mbed’s) check for that but Joseph Yiu makes
+ a point of it in his book. Thanks for any help you can provide!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-875">
+      <a title="January 16, 2021 10:03pm" class="post-date" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/16">16 Jan</a>
+
+      <div class="author">
+        <a href="https://community.memfault.com/u/chrisc" target="_blank"><img src="comments_data/22_2.jpg" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://community.memfault.com/u/chrisc" target="_blank" class="staff">chrisc</a>
+        </h3>
+        <p>hi <a class="mention" href="https://community.memfault.com/u/nathancharlesjones" target="_blank">@nathancharlesjones</a>, glad you enjoyed the article and great question!</p>
+<p>You are right that it is possible one can fault from the C handler if the stack is already outside of RAM bounds.</p>
+<p>Note that typically a separate stack (process / “psp” stack) is used 
+for thread mode vs when running from an exception in handler mode (main /
+ “msp” stack). The “msp” stack is typically <a href="https://github.com/ARM-software/CMSIS_5/blob/develop/Device/ARM/ARMCM4/Source/GCC/gcc_arm.ld#L284-L291" target="_blank">placed at the end of RAM</a>
+ which makes the chances of it running off RAM unlikely but not 
+impossible of course. It’s certainly possible another area of RAM (i.e 
+data, bss or a heap) gets trampled if the handler uses too much stack 
+but usually the system will be rebooted at the end of the handler so it 
+will get back to a good state anyway if that type of corruption does 
+occur.</p>
+<p>By using separate stacks, if the process stack overflows in normal 
+operation, the Hardfault Handler will still be able to run since it’s a 
+different stack. If you are using the MPU as a stack guard, you can also
+ leave the <a href="https://interrupt.memfault.com/blog/fix-bugs-and-secure-firmware-with-the-mpu#mpu-control-register" target="_blank">HFNMIENA</a> bit clear to prevent faulting in that way as well.</p>
+<p>Worst case, if you do stack overflow or fault from the 
+HardFault_Handler, the Cortex-M MCU will enter the “Lockup” state. The 
+behavior in this state is technically left up to the MCU implementer so 
+it’s worth looking it up in the datasheet for the MCU but generally if 
+the “Lockup” condition is encountered, the MCU will automatically reset 
+itself when not attached to a debugger.</p>
+<p>All that being said, if you have extra RAM available and want to 
+guarantee the fault handler can always execute, a strategy I’ve always 
+been quite fond off is having a dedicated pre-allocated area of SRAM to 
+set the stack pointer to before invoking the fault handler. You can find
+ an example of that strategy in this <a href="https://github.com/adamgreen/CrashCatcher/blob/c8e801225bfa12da70c01ea25b58090b2b7a2e0a/Core/src/CrashCatcher_armv7m.S#L29-L60" target="_blank">handler implementation</a>.</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="https://community.memfault.com/"><img class="logo" src="comments.htm"></a>
+      <a class="button" target="_blank" href="https://community.memfault.com/t/how-to-debug-a-hardfault-on-an-arm-cortex-m-mcu-interrupt/106/16">Continue Discussion</a>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  
+
+</body></html>

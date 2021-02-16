@@ -1,0 +1,252 @@
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+ROBOT PROCESS AUTOMATION - WEILDING ROBOT PROGRAMMING 
+
+KUKA KRC4 Programmer (Basic & Advanced)
+KUKA Safe Operation V3.2.0
+Kuka, ABB, Fanuc, Panasonic and Yaskawa-Motoman Spot and Arc Robot
+Siemens Process Simulate,ABB Robot studio,Fanuc RoboGuide
+Participated in set up of Robotic MIG Welding Automation Cells
+     Got experience in 6 Axis YASKAWA (Motoman) Robot Programming, Welding Power Source (Motoweld), 
+	 modifications in PLC (Mitsubishi) programming and replacement of parts in robot & robot controller
+     Managed multiple types of reed sensors, proxy sensors, limit switches, pressure switches, solenoid valves
+	https://freesearch.naukri.com/preview/preview?uname=705be3e840e3ffed47ba6c81d8a4df36030c4a090342490f5d48050103790d13555c0f504e1c6&sid=4001185777&LT=1594297376
+	
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+ 
+Embedded profile
+https://freesearch.naukri.com/preview/preview?uname=f1ebe646f372f72e45f86bcffec2bc5f0903560e0a48584f470f15011550153a4454405a4d5f0b02546&sid=4001223315&LT=1594298880
+Gateways, Routers, VOIP, RDK-B, Multimedia, Car Infotainment, Device Drivers, Linux, RTOS. 
+Android, MiddleWare Integration & Certification
+
+Technology: Embedded technology, Processor architecture, ARM processor, interrupt architecture, Bare-metal firmware.
+
+Communication interfaces: SPI, I2C, RS232, RS485, Ethernet, USB, GSM, and GPRS
+
+Programming: C programming, Data structures, Assembly of ARM, cross-compilers, linkers, IDEs
+
+Peripherals: Memory devices, SD card, PWM, RTC, LCD controllers, DMA
+
+In addition to above, we need following for Hardware based profile
+
+Power supply design
+
+Discrete designs
+
+Analog designs
+
+Microcontroller based designs with external memory interfaces like RAM, Flash etc.
+
+Hardware design based on different communication protocols like SPI, I2C, GSM/GPRS modems
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Embedded systems engineer working with CDAC R&D in IoT domain.
+Interests include Real Time Operating Systems, IoT product development, 
+technologies such as NB-IoT, BLE, RFID, and NFC among others.
+
+AWAK - ABEL DSOUZA
+
+BUTTON DEBOUNCING TECHNIQUES - H/W & S/W
+SPI, IIC BUS COMM. DEBUGGING
+START-UP CODE - BOOTLOADER
+NOR/NAND FLASH PROGRAMMING - CHECKSUM
+NUMERIC KEYPAD DRIVER
+SIMPLE FLASH FILE SYSTEM FOR DATA LOGGING
+
+	The Engineering of Reliable Embedded Systems Developing - SIL 0 to SIL 3 - Time-Triggered arch - M J Pont
+	
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Altran Americas/Aricent/Capgemini
+
+	https://www.glassdoor.co.in/Interview/Altran-Americas-Embedded-Software-Engineer-Interview-Questions-EI_IE28187.0,15_KO16,42.htm
+	https://www.glassdoor.co.in/Interview/Altran-Americas-Gurgaon-Interview-Questions-EI_IE28187.0,15_IL.16,23_IC2921225_IP9.htm
+	
+Linux device driver majorly kernel threads and kernel synchronization mechanism. 
+Process synchronization and basic C questions. 
+Interrupts sorting of an array.
+Where is static variable stored?   
+
+important topics of c language like storage classes,qualifiers,data structures,strings,static variables,global variables,
+single linked list program for swap the nodes of list,swap the two numbers without using the temporary variable,
+
+how to multiply a number with 3.5 without using *,/,% operator?   
+
+C,C++, Data structures, OS and kernel development. 
+How will you find End of a circular linked list?
+
+ algo to delete a node in linked list, some questions on bit operators
+node deletion in a linked list.
+reversal of string
+
+Data structures(linked list), Networking  
+- OS basics
+- Linked list
+- System programming
+- C basics
+- N/W basics	
+	
+Write a C program to count how many words in a sentence.  
+Explain what is I2C protocol?   	
+	
+kindly go through mouthshut website and search for aricent interview process before going to interview . 
+Kindly ignore some hr names mentioned in the post they have written same thing what i have faced . 
+Worst Interview process ever in my life . only less expectation matters . 
+If you are a hard worker and money oriented then don't go there . 
+They don't release offer letter and play with you . 
+Manager don't take it heartily :) you don't have knowledge so 
+https://www.mouthshut.com/product-reviews/Aricent-Technologies-Holdings-Ltd-reviews-925609396
+https://www.mouthshut.com/review/Aricent-Technologies-Holdings-Ltd-review-qopsomnsnnn
+
+
+https://gdpi.hitbullseye.com/aricent.php
+data structures like queue stack tree
+implement stack in java, difference between hashmap and hashtable, 
+what is inheritance, difference between method overloading and ovveriding.
+------------------------------------------------------------------------------------------------------------------------------------------
+ 
+
+LG SOFT INTERVIEW QTNS - CONTROLLER DESIGN PROFILE
+
+START UP CODE, WHAT DOES IT DO?
+IS THERE ONE SINGLE STACK OR SEPARATE STACK PER FUNCTION?
+CAUSES OF STACK OVERFLOW?
+STATIC, VOLATILE, STACK, HEAP
+WHERE ARE CONST, STATIC, VOLATILE, GLOBAL VARIABLES, CHAR STRINGS STORED IN MEMORY 
+STRUCTURE VS UNION
+MEMORY LEAK, NULL POINTER VS DANGLING POINTER,
+WATCH DOG TIMER, TIMER INTERRUPT - USES?
+MAIN DIFF. B/W I2C & SPI, MAX. NO. OF SLAVES FOR EACH PROTOCOL 
+HTTP VS MQTT
+CRC - DIFFERENT TYPES OF CHECKSUMS?
+NFC, PYTHON, BLUEZ, RASPBERRY PI, 
+
+WHEN TO USE CERAMIC & WHEN TO USE ELECTROLYTIC CAPACITOR?
+WHEN DO YOU SINK OR SOURCE A PIN?
+BUCK-BOOST CONVERTOR FOR POWER SOURCE
+REVERSE POLARITY PROTECTION CKT FOR PCB
+HIGH CURRENT PROTECTION CKT (FROM BATTERY)
+SWITCH DEBOUCING - FOR MECHANICAL & CAP. TOUCH SWITCH? 
+RDS_on OF JFET, SWITCHING FREQ. OF JFET?
+NO LOAD CURRENT OF PCB BOARD? 
+
+18650 Battery charger reverse polarity protection
+	http://blog.deconinck.info/post/2017/12/22/18650-Battery-charger-reverse-polarity-protection
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Linux OS Development Engineer
+https://www.naukri.com/job-listings-Linux-OS-Development-Engineer-IBM-India-Pvt-Limited-Bengaluru-4-to-8-years-170220902569
+As a Linux OS developer, your responsibilities will include:
+- Design and implement code in Linux Kernel and Userspace tools
+- Write unit test cases that will help verify your code
+- Work with the community to upstream your code
+Proven expertise on C and C++ on Linux
+Proven expertise OS internals with focus on Linux
+Proven expertise on data structures, OOPS programming, etc.
+Experience with scripting languages such as Python, Shell Scripting
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Embedded Linux ( C++ Developer)
+Semcon India Pvt Ltd
+5 - 10 years
+We are looking for pure C++ developer responsible for building 
+mutithreaded embedded system applications on linux platform. 
+https://www.naukri.com/job-listings-Embedded-Linux-C-Developer-Semcon-India-Pvt-Ltd-Bengaluru-5-to-10-years-030320009768
+ 
+ Skills:
+
+
+    Strong proficiency in C++, with fair knowledge of the language specification
+    Thorough knowledge of the standard library, STL containers, and algorithms
+    Good understanding of memory management in non-garbage collected environments
+    Understanding of dynamic polymorphism and C++ specific notions, such as friend classes
+    Familiarity with templating in C++
+    Knowledge on at least C++11 or above standard is appreciated {depending on project specifications}
+    Familiarity with embedded systems design, low-level hardware interactions {{if required}}
+    Knowledge of low-level threading primitives and real-time environments {{depending on project requirements}}
+    Familiarity with system call wrapper library functions
+    Familiarity with debugging memory leaks using tools like Valgrind, debugging using GDB
+    Implementation of automated testing platforms and unit tests
+    Proficient understanding of code versioning tools {such as Git}
+    Familiarity with continuous integration
+    Hands on experience in Linux and embedded linux platforms
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Senior Software Engineer - C++/kernel Programming
+Armour Corporate Services
+5 - 8 years
+https://www.naukri.com/job-listings-Senior-Software-Engineer-C-kernel-Programming-Armour-Corporate-Services-Bengaluru-5-to-8-years-070420904835
+- Strong track record in people management, who also possesses deep technical knowledge in server platforms.
+
+- Experience in Device driver development, Kernel mode development, C, C++ Programming Language.
+
+- Experience of OS internals such as Linux, Windows or other Unix operating systems.
+
+- Knowledge of Storage technologies and stacks.
+
+- Experience in OS debugging, analyzing system crashes using Windows debugger.
+
+- Experience with source control and bug tracking tools such as Subversion, git and Jira.
+
+- Ability to clearly understand requirements and translate them down to the scope of work.
+
+- Ability to scale engineering teams, improve productivity and retain top talent.
+
+- Experience partnering with US-based Product Management, Engineering and Services to drive product through the development process and into production.
+
+- 5 - 8 years of software development experience in the industry. 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Device Driver and Security Engineers
+3 - 8 Years
+Bengaluru
+https://www.naukri.com/job-listings-Device-Driver-and-Security-Engineers-Altran-Technologies-India-Private-Limited-Bengaluru-3-to-8-years-240320002029
+ Work Experience -3-12 Years
+
+Job Description
+
+Good knowledge in Cryptography
+Good understanding in Linux Kernel
+Hands on kernel module debugging, device driver development - Knowledge in Symmetric and Asymmetric secure keys, Hashing, Signing and certificate handling
+Hands in C and good in C++
+Familiar with OpenSSL
+Familiar with Secure run time such as TEE 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Lead Software Developer
+ANSYS Software Pvt. Ltd. 
+8 - 10 years
+₹ 40,00,000 - 45,00,000 P.A.
+Bengaluru
+ https://www.naukri.com/job-listings-Lead-Software-Developer-ANSYS-Software-Pvt-Ltd-Bengaluru-8-to-10-years-190320007807
+ MINIMUM QUALIFICATIONS
+
+    B.E./B.Tech. or M.E./MTech degree in Computer Science, Electrical Engineering or related field with upto 8 years of experience
+    Experience in C++ with broad and deep understanding of the language
+    Strong working knowledge of the Linux operating system
+    Strong background in data structures, algorithms, and debugging
+    Solid understanding of electronic design at gate level and/or transistor level
+    Ability to learn quickly, understand complex systems and to work closely with others
+    Ability to complete high-quality work on time
+    Ability to lead a team of 2-3 RD members
+
+PREFERRED QUALIFICATIONS
+
+    Demonstrated skills in the following areas are a plus:
+    Successful large-scale commercial software development
+    Development, debugging and optimization of systems using distributed processing
+    Experience with the Python programming language
+    Familiarity with back-end EDA database
+    Familiarity with data-structures for geometric data processing
+    IC physical design
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

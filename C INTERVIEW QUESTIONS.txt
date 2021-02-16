@@ -1,0 +1,242 @@
+	
+	ACCLIVIS, BAVDHAN, PUNE
+	Amol Shrotri <amol.shrotri@acclivistechnologies.com>
+	Deep Darji <darjideep2811@gmail.com>
+	Vikram Bhuskute <vikram.bhuskute@acclivistechnologies.com>
+	
+	BLUETOOTH
+	=========
+	
+	HOW TO GET LOCATION USING BLE BEACONS?
+	
+	HOW DO YOU MEASURE DISTANCE USING BLE?
+	
+	ANY BLE SNIFFER TOOLS YOU USED?
+	
+	WHAT ARE THE MAIN CONFIGURATION PARAMETERS FOR BLE CONNECTION?
+	
+	HOW TO DEAL WITH (DETECT & RESOLVE) BLUETOOTH CONNECTION LOSS/DROP? 
+	
+	WORKED ON ANY CYPRESS BLE CHIPS?  
+	NORDIC, TI, NXP(ECLIPSE), STM32 (CUBEMX, KEIL, CUBE IDE)
+	
+==============================================================================================================
+	
+	RTOS TASK SYNCRONIZATION MECHANISMS?
+	
+	HAVE YOU WRITTEN BSP FOR LINUX BASED SOC?
+	
+	HOW TO DESIGN A TIME CRITICAL, MEMORY CRITICAL & POWER OPTIMIZED EMBEDDED SYSTEMS?
+	
+	HAVE YOU USED LINKER SCRIPTS? (HOW TO PLACE A FUNCTION AT A PARTICULAR ADDRESS?)
+	
+	WHAT DEBUGGING TOOLS HAVE YOU USED? SEGGER, JTAG, ULINK
+	
+	HOW TO TURN OFF THE DIFFERENT SENSORS IN BME680? 
+	I2C DRIVER FOR BME680
+	
+	BOOTLOADER -> FOTA -> STEPS TO CHECK & PREVENT/DEAL WITH DOWNLOADED FIRMWARE CORRUPTION
+	
+	ARM -> LOW POWER MODES
+	
+	ARM -> HARD FAULT, SEGMENTATION ERROR, MEMORY FAULT
+	
+	UART -> HIGH BAUD RATE SUPPORT REQUIRED -> CAN DMA BE USED TO WRITE HIGH SPEED UART DATA 
+			TO MEMORY WITHOUT USING THE MCU CORE/S 
+	UART -> DATA FRAME FOR INTEGRITY CHECK
+	
+	SPI -> HOW TO ENSURE DATA INTEGRITY (CRC) -> DATA FRAME FOR INTEGRITY CHECK
+	
+	I2C -> HOW TO DEAL WITH BUS-BUSY ERROR, WHICH LINE TO DEBUG
+	I2C -> CLOCK STRETCHING
+	
+	TIMER INTERRUPTS -> HOW TO IMPLEMENT EXT. INTRPT. CALLBACK FUNCTION REGISTRATION
+	
+	
+	METHODS TO CALIBRATE ACCELEROMETER / GYROSCOPES
+	
+	
+==============================================================================================================
+
+	int main(void* code) // FUNCTION TAKES ANY DATATYPE
+	{
+		...
+		return (error_code);
+	}
+
+==============================================================================================================
+	
+	IMPLEMENT WITH NECESSARY ERROR CHECKING: int division(int num, int div,int * res);
+	
+	
+	int division(int num, int div,int * res) // ALL POSSIBLE ERROR CHECKS FOR DIVISION
+	{
+		if(div == 0)
+			return -1;			
+		else
+		{	if(res)
+				*res = num / div;
+		}
+			
+		return 0;	
+		
+	}
+	
+==============================================================================================================
+	
+	int arr[5] = {1,3,4,5,6};
+	int *p[] = {arr + 4,arr + 3,arr + 2,arr + 1,arr + 0};
+	int **ptr = p;
+	printf(“%d %d %d”,*(arr+4),ptr+4,p+4); // ??
+
+	
+	int arr[5] = {1,3,4,5,6};
+	char *p = arr;
+	printf("%d",*p); // ??
+	p++;
+	printf("%d",*p); // ??
+	
+==============================================================================================================
+	IMPLEMENT:	int extract_byte(int val, int byte_no);
+
+	
+	int extract_byte(int val, int byte_no)
+	{
+		return ((val >> (8*byte_no)) && 0xFF);	
+	}
+	
+==============================================================================================================
+
+	LITTLE ENDIAN
+	BIG ENDIAN
+	
+	0xABCDEF
+	
+	0xEFCDAB
+	
+	EF
+	CD
+	AB
+	
+	USE OF VOLATILE 
+==============================================================================================================
+	
+	// which one has smaller size -> s1 or s2 ?
+	struct s1
+	{	int i;
+		char c;
+	}
+	
+	struct s2 
+	{	char c;
+		int i;
+	}
+	
+==============================================================================================================
+	
+	int p;
+	static int q;
+	
+	void main()
+	{
+		int x = 0;
+		static int y; 
+		display(x);
+	}
+	
+	
+	void display(int x)
+	{	
+		printf("%d", x);
+		x++;
+		
+		display(x);
+	}
+	
+	WHAT WILL HAPPEN WHEN EXECUTING ABOVE CODE?
+	
+	0
+	1
+	2
+	.
+	.
+	STACK OVERFLOW AT SOME POINT
+	
+	
+	IN WHICH REGION OF MEMORY WOULD p, q, x, y  BE LOCATED?
+	
+	.code - 
+	.data - initialized global / static (local)
+	.bss - unintialized global / static (local)
+	
+	stack - local
+	
+============================================================================================================================================================================================================================
+
+	WIPRO LINUX C OS QTNS - SHANTANU BANERJEE (APMEA - iDEAS-ER&D)
+	
+	detect/debug segmentation fault in main.c -> CORE DUMP
+	
+	Debugging Segmentation Faults and Pointer Problems
+	https://www.cprogramming.com/debugging/segfaults.html
+	
+	How to debug a HardFault on an ARM Cortex-M MCU
+	https://interrupt.memfault.com/blog/cortex-m-fault-debug
+	https://eng.fitbit.com/the-tower-of-terror-a-bug-mystery/
+
+	memory leak analysis tools -> Valgrind -> Memcheck -> how will you find memory leak in 1GB source code in 1 hour? 
+	Memcheck: a memory error detector
+	https://www.cprogramming.com/debugging/valgrind.html
+	https://www.valgrind.org/docs/manual/mc-manual.html
+	
+	Advanced Memory Management: Dynamic Allocation
+	https://www.cprogramming.com/tutorial/dynamic_memory_allocation.html
+	Memory and Resource Leak Detection Tools
+	https://www.ics.com/blog/explore-memory-and-resource-leak-detection-tools
+	
+	what is cmake? what is it used for? how does it differ from makefile
+	
+	linux commands to add static library, header files to compile c code -> gcc compiler tools
+
+	gdb
+
+	kernel modules?
+
+	ipc
+
+	
+
+
+	malloc calloc
+
+	stack size - overflow detection / prevention
+
+	multithreading
+
+	task / process / thread
+
+	mutex semaphore
+
+	deadlock
+
+	LINUX/Raspberry Pi : bootloader, root file system
+
+	I2C - structure padding 
+
+	linked list, doubled linked list
+
+	Little-endian vs Big-Endian which is better/more compact?
+
+	Memory paging?
+
+	Virtual Memory Management/Location in Linux
+
+	Memory Swap
+
+	Scheduling Policies - Round-Robin
+
+	OOPs concepts: Inheritance, Types Of Polymorphism?
+
+============================================================================================================================================================================================================================
+	
+	
