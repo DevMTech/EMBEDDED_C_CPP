@@ -38,9 +38,9 @@ int binarySearch(int arr[], int l, int r, int x)
  
 int main(void)
 {
-   int arr[] = {1, 2, 3, 5};
+   int arr[] = {1, 2, 3, 5, 6, 0, 4, 8, 9};
    int size = sizeof(arr)/ sizeof(arr[0]);
-   int find = 3;
+   int find = 10;
    printf("Position of %d is %d\n", find, recursiveBinarySearch(arr, 0, size-1, find));
    printf("Position of %d is %d\n", find, binarySearch(arr, 0, size-1, find));
    return 0;

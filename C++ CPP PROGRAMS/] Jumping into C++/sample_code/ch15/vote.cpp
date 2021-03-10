@@ -4,16 +4,22 @@ using namespace std;
 
 int main ()
 {
-	int votes[ 10 ];
+	int votes[ 10 ]={0}; // clearing out the array
+	
+		// display the votes
+//	for ( int i = 0; i < 10; ++i )
+//	{
+//		cout << votes[ i ] << '\n';
+//	}
 
 	// make sure the election isn't rigged (by clearing out the array)
-	for ( int i = 0; i < 10; ++i )
-	{
-		votes[ i ] = 0;
-	}
+//	for ( int i = 0; i < 10; ++i )
+//	{
+//		votes[ i ] = 0;
+//	}
 
 	int candidate;
-	cout << "Vote for the candidate of your choice, using numbers: 0) Joe 1) Bob 2) Mary 3) Suzy 4) Margaret 5) Eleanor 6) Alex 7) Thomas 8) Andrew 9) Ilene" << '\n';
+	cout << "Vote for the candidate of your choice, using numbers: \n 0) Joe 1) Bob 2) Mary 3) Suzy 4) Margaret 5) Eleanor 6) Alex 7) Thomas 8) Andrew 9) Ilene" << '\n';
 	cin >> candidate;
 	
 	// enter votes until the user exits by entering a non-candidate number

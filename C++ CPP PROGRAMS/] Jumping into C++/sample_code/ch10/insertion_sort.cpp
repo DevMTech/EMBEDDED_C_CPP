@@ -57,13 +57,16 @@ void displayArray (int array[], int size)
 
 int main ()
 {
-	int array[ 10 ];
-	srand( time( NULL ) ); 
-	for ( int i = 0; i < 10; i++ )
-	{
-		// keep the numbers small so they're easy to read
-		array[ i ] = rand() % 100;
-	}
+	int array[ 10 ] = {9, 7, 5, 3, 9, 7, 1, 9, 3, 2};
+	
+//	srand( time( NULL ) ); 
+//	for ( int i = 0; i < 10; i++ )
+//	{
+//		// keep the numbers small so they're easy to read
+//		array[ i ] = rand() % 100;
+//	}
+	
+	
 	cout << "Original array: ";
 	displayArray( array, 10 );
 	cout << '\n';

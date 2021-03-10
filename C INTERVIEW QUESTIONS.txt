@@ -189,6 +189,9 @@
 	https://www.cprogramming.com/debugging/valgrind.html
 	https://www.valgrind.org/docs/manual/mc-manual.html
 	
+	Using Valgrind to Find Memory Leaks and Invalid Memory Use
+	https://www.cprogramming.com/debugging/valgrind.html
+	
 	Advanced Memory Management: Dynamic Allocation
 	https://www.cprogramming.com/tutorial/dynamic_memory_allocation.html
 	Memory and Resource Leak Detection Tools
@@ -219,7 +222,7 @@
 
 	deadlock
 
-	LINUX/Raspberry Pi : bootloader, root file system
+	LINUX/Raspberry Pi : custom kernel config - boot image configuration, bootloader, root file system, 
 
 	I2C - structure padding 
 
@@ -239,4 +242,14 @@
 
 ============================================================================================================================================================================================================================
 	
+	LINKED LIST - NODES MAY BE STORED AT DIFFERENT LOCATIONS, UNLIKE AN ARRAY WHERE THEY ARE STORED IN CONTIGUOUS MEMORY LOCATIONS
 	
+	LINKED LIST VS ARRAY
+	PROS:
+	SIZE CAN BE CHANGED DYNAMICALLY
+	INSERTION & DELETION OF NODES IS FASTER THAN FOR ARRAY
+	
+	CONS:
+	ONLY SEQUENTIAL ACCESS
+	MORE MEORY REQ. PER NODE (TO STORE THE POINTERS)
+		

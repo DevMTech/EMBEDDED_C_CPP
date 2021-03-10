@@ -10,5 +10,6 @@ int main ()
 	cin >> thisisanumber;
 	cin.ignore();
 	cout << "You entered: " << thisisanumber << "\n";
+//	cin.ignore();
 	cin.get();
 }

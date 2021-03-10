@@ -1,103 +1,41 @@
 
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-GDB TUTORIAL
-	https://www.cprogramming.com/gdb.html
-	http://www.gdbtutorial.com/tutorial/commands
-	http://www.onlinegdb.com/
-	https://www.cprogramming.com/tutorial/debugging_concepts.html
+	Linux Device Driver - 41 parts!!!
+	https://embetronicx.com/tag/device-driver/
+	https://embetronicx.com/tutorials/linux/device-drivers/linux-device-driver-part-1-introduction/
+	Linux Device Driver Tutorial Part 11 – Sysfs in Linux Kernel
+	https://embetronicx.com/tutorials/linux/device-drivers/sysfs-in-linux-kernel/
 	
-
-C Programming in Linux Tutorial #056 - GDB debugger (1/2)
-https://www.youtube.com/watch?v=rlN3XI8kuhI
-
-How to Debug a C or C++ Program on Linux Using gdb
-https://www.maketecheasier.com/debug-program-using-gdb-linux/
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-	Linux Device Drivers - Linux Device Model
-	https://junyelee.blogspot.com/2020/04/linux-device-drivers-iv.html
+	Linux Device Drivers Series
+	https://www.opensourceforu.com/tag/linux-device-drivers-series/page/2/
+	https://github.com/Embetronicx/Tutorials/tree/master/Linux/Device_Driver
 	
+	Embedded Linux device drivers: Writing a kernel device driver
+	https://www.embedded.com/embedded-linux-device-drivers-writing-a-kernel-device-driver/
 	
+	Linux Devices Driver Sysfs and Devfs creation in Linux Kernel
+	https://www.truetechembedded.com/2018/05/linux-devices-driver-sysfs-in-linux.html
+	
+	Embedded System and Linux Device Driver Interview Questions
+	https://www.truetechembedded.com/2019/05/embedded-system-and-linux-device-driver.html
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+data structure handbook
+https://www.thedshandbook.com/linked-lists/
 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-	avr-gcc & avrdude makefile tutorial | Compile C & upload to AVR board (mac) | [ATmega328p Ep.1 en]
-	https://www.youtube.com/watch?v=iKqLbbyPydI
-	
-	ATmega328p Tutorial English
-	https://www.youtube.com/playlist?list=PLmo-IAQkDswKhHMydbBYNrB9EJ0aSkCoD
-	
-	Full Tutorial avrdude USBasp
-	https://www.youtube.com/playlist?list=PLozP2uQO8z1Q_eEOLzxq5vZELsKgcRfy3
-	
-			
-	Starting out with avrdude
-	https://www.ladyada.net/learn/avr/avrdude.html
-	https://linux.die.net/man/1/avrdude
-	https://medium.com/@ppatil/avr-programing-using-avrdude-in-ubuntu-93734c26ad19
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-	Setting Up AVR-GCC toolchain and avrdude To Program An AVR Development Board In UBUNTU
-	http://www.linuxandubuntu.com/home/setting-up-avr-gcc-toolchain-and-avrdude-to-program-an-avr-development-board-in-ubuntu
-	
-	//sudo apt-get install avrdude gcc-avr avr-libc avrdude-doc codeblocks
-	
-	sudo apt-get install binutils gcc-avr avr-libc uisp avrdude flex byacc bison avrdude-doc
-	
-	
-	contents of 'compile_script':
-	avr-gcc -g -Os -mmcu=“microcontroller” -c “filename”.c
-	avr-gcc -g -mmcu=“microcontroller” -o “filename”.elf “filename”.o
-	avr-objcopy -j .text -j .data -O ihex “filename”.elf “filename”.hex
-	avr-size --format=avr --mcu=“microcontroller” “filename”.elf ​
-	
-	Here the filename that we want to compile is: led.c and 
-	the microcontroller is: atmega32​So the code becomes :- 
-	
-	avr-gcc -g -Os -mmcu=atmega32 -c led.c
-	avr-gcc -g -mmcu=atmega32 -o led.elf led.o
-	avr-objcopy -j .text -j .data -O ihex led.elf led.hex
-	avr-size --format=avr --mcu=atmega32 led.elf 
-	
-	add permisions:
-	sudo chmod 755 compile_script
-	
-	contents of 'upload_script':
-	avrdude -c arduino -p m32 -P /dev/ttyUSB0 -b 19200 -U flash:w:led.hex
-	
-	
-	add permisions:
-	sudo chmod 755 upload_script
-	
-	
-	flash code to AVR board:
-	sudo ./upload_script
-
-	
-	
----------------------------------------------------------------------------------------------------------------------------
-
+Algorithms and Data Structures Animations for the Liang Java, C++, and Python Books - Y. Daniel Liang
+https://yongdanielliang.github.io/animation/animation.html
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 Data Structures in the Linux Kernel
 
 Doubly linked list, B+ tree, priority heap, bit arrays, Radix tree...
-
 https://0xax.gitbooks.io/linux-insides/content/DataStructures/
+
+Bootlin Linux Linked List
+https://elixir.bootlin.com/linux/latest/C/ident/list_head
+
 ---------------------------------------------------------------------------------------------------------------------------
 
 TLDP : Chapter 15 Linux Data Structures
@@ -110,6 +48,16 @@ The Linux Channel: Kernel Data-Structures
 https://the-linux-channel.the-toffee-project.org/index.php?page=15-links-kernel-data-structures
 
 
+----------------------------------------------------------------------------------------------------------------------------
+
+The Linux Kernel Module Programming Guide v2.6.4 2007
+	https://tldp.org/LDP/lkmpg/2.6/html/index.html
+	https://www.linuxtopia.org/online_books/linux_kernel_index.html
+	https://www.youtube.com/playlist?list=PL16941B715F5507C5
+
+Linux Kernel Module Programming: Hello World Program
+	https://www.geeksforgeeks.org/linux-kernel-module-programming-hello-world-program/
+	
 ---------------------------------------------------------------------------------------------------------------------------
 
 Linux Kernel Programming
@@ -126,15 +74,38 @@ https://www.youtube.com/channel/UCESk3ORdKJ1iQGibV_XiHhw/playlists
 Understanding Device Drivers
 https://www.youtube.com/watch?v=1STH2YvXLvE
 
-----------------------------------------------------------------------------------------------------------------------------
 
-The Linux Kernel Module Programming Guide v2.6.4 2007
-	https://tldp.org/LDP/lkmpg/2.6/html/index.html
-	https://www.linuxtopia.org/online_books/linux_kernel_index.html
-	https://www.youtube.com/playlist?list=PL16941B715F5507C5
+	Linux Device Drivers - Linux Device Model
+	https://junyelee.blogspot.com/2020/04/linux-device-drivers-iv.html
 
-Linux Kernel Module Programming: Hello World Program
-	https://www.geeksforgeeks.org/linux-kernel-module-programming-hello-world-program/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+GDB TUTORIAL
+	https://www.cprogramming.com/gdb.html
+	http://www.gdbtutorial.com/tutorial/commands
+	http://www.onlinegdb.com/
+	https://www.cprogramming.com/tutorial/debugging_concepts.html
+	
+
+C Programming in Linux Tutorial #056 - GDB debugger (1/2)
+https://www.youtube.com/watch?v=rlN3XI8kuhI
+
+How to Debug a C or C++ Program on Linux Using gdb
+https://www.maketecheasier.com/debug-program-using-gdb-linux/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	
+	
+---------------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -263,4 +234,60 @@ https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/
 
 Windows 10 setup for developers - WSL2, Windows Terminal, Ubuntu
 https://nomadcoders.co/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	avr-gcc & avrdude makefile tutorial | Compile C & upload to AVR board (mac) | [ATmega328p Ep.1 en]
+	https://www.youtube.com/watch?v=iKqLbbyPydI
+	
+	ATmega328p Tutorial English
+	https://www.youtube.com/playlist?list=PLmo-IAQkDswKhHMydbBYNrB9EJ0aSkCoD
+	
+	Full Tutorial avrdude USBasp
+	https://www.youtube.com/playlist?list=PLozP2uQO8z1Q_eEOLzxq5vZELsKgcRfy3
+	
+			
+	Starting out with avrdude
+	https://www.ladyada.net/learn/avr/avrdude.html
+	https://linux.die.net/man/1/avrdude
+	https://medium.com/@ppatil/avr-programing-using-avrdude-in-ubuntu-93734c26ad19
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Setting Up AVR-GCC toolchain and avrdude To Program An AVR Development Board In UBUNTU
+	http://www.linuxandubuntu.com/home/setting-up-avr-gcc-toolchain-and-avrdude-to-program-an-avr-development-board-in-ubuntu
+	
+	//sudo apt-get install avrdude gcc-avr avr-libc avrdude-doc codeblocks
+	
+	sudo apt-get install binutils gcc-avr avr-libc uisp avrdude flex byacc bison avrdude-doc
+	
+	
+	contents of 'compile_script':
+	avr-gcc -g -Os -mmcu=“microcontroller” -c “filename”.c
+	avr-gcc -g -mmcu=“microcontroller” -o “filename”.elf “filename”.o
+	avr-objcopy -j .text -j .data -O ihex “filename”.elf “filename”.hex
+	avr-size --format=avr --mcu=“microcontroller” “filename”.elf ​
+	
+	Here the filename that we want to compile is: led.c and 
+	the microcontroller is: atmega32​So the code becomes :- 
+	
+	avr-gcc -g -Os -mmcu=atmega32 -c led.c
+	avr-gcc -g -mmcu=atmega32 -o led.elf led.o
+	avr-objcopy -j .text -j .data -O ihex led.elf led.hex
+	avr-size --format=avr --mcu=atmega32 led.elf 
+	
+	add permisions:
+	sudo chmod 755 compile_script
+	
+	contents of 'upload_script':
+	avrdude -c arduino -p m32 -P /dev/ttyUSB0 -b 19200 -U flash:w:led.hex
+	
+	
+	add permisions:
+	sudo chmod 755 upload_script
+	
+	
+	flash code to AVR board:
+	sudo ./upload_script
+
 ---------------------------------------------------------------------------------------------------------------------------	
