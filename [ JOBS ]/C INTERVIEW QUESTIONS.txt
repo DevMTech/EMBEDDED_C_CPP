@@ -1,0 +1,418 @@
+	
+	
+	What is the project/team I am going to join working on?
+	
+	What is the on-boarding process like?
+	
+	What are the best things about working in this company? (What do you like most about working here?)
+	
+	Timings, Work-Life Balance?
+	
+	Tell HR that once I have offer letter I can go for NP and join 1 month after that. 
+	wait after HRs discussion and if they don't provide letter within 2 days u should ask them
+	Keep taking updates with HR till offer letter is sent
+	
+	Depends on offer in hand...koi offer hoga to uske uper 2-3Lakh bol do, Nhi to 10.5-11
+	
+	HR me to salary structure and fixed amount puchh lena
+	
+	PF ka ki sara PF salary me se jayega ya half
+	 
+	joining bonus
+	
+	Ctc and extra benefits + ask hr ki in hand kitna ayega... Sbse imp h.. bcz sbka apna apna deduction hota h
+	
+	Future opportunities
+	
+	And promotions/salary hike me koi limits and restrictions (Like cdac.. ki max 10% hi hoga ya kuch)
+	
+	Probation period and notice period bhi pta kr lena
+	
+
+	CTC goes to 14 as Accenture has 21% variable portion
+	ask for 12, Bcuz first switch and u have stability of 3.7 yrs
+
+
+	CTC = Gross Salary + PF + Gratuity
+	Gross Salary = Basic Salary + HRA + Other Allowances
+	Net Salary = Basic Salary + HRA + Allowances - Income Tax - Employer's Provident Fund - Professional Tax
+	
+	
+	
+		https://www.ambitionbox.com/profile/senior-firmware-engineer-salary
+	
+==============================================================================================================	
+
+	Amazon Development Centre India Private Limited
+ 	Technology park in Pune, Maharashtra
+	Address: B-2, Nagar Rd, Somnath Nagar, Wadgaon Sheri, Pune, Maharashtra 411014
+ 
+	
+		
+
+	
+==============================================================================================================
+	
+    Gajanan Jewalikar - Manager at Capgemini India 
+	gajanan.jewalikar@capgemini.com
+	https://www.linkedin.com/in/gajanan-jewalikar-27b18018/
+	
+	MCU arch. -> Harvard vs Von Neumann Arch. -> 8051?
+	
+	Embedded C Memory Map -> .text, .data, .bss
+	Storage Class - auto, static, register, extern
+	
+	volatile int *p; p?? // ptr to volatile int
+	
+	C keywords -> const volatile int ??
+	
+	Can a breakpoint be inserted in ISR?  
+	
+	MCU Debugging 
+	
+	Code compilation steps
+	
+	Communication Protocol, Buses -> SPI, CAN
+	Memory Mgmt. -> SRAM, E2PROM, Flash,
+	 
+		
+	
+	J1939 vs CAN 
+	CAN Std. vs CAN Extd.
+	Cables used for CAN
+	
+	
+	practical intro to SAE J1939?
+	https://www.csselectronics.com/screen/page/simple-intro-j1939-explained/language/en
+
+	SAE J1939 vs. CAN Bus - Physical Layer And Higher Layer Protocol (HLP)
+	https://copperhilltech.com/blog/sae-j1939-vs-can-bus-physical-layer-and-higher-layer-protocol-hlp/
+	https://copperhilltech.com/a-brief-introduction-to-controller-area-network/
+	https://copperhilltech.com/a-brief-introduction-to-the-sae-j1939-protocol/
+	
+	https://automotiveembeddedsite.wordpress.com/can-j1939/
+	https://tractorhacking.github.io/documentation/TechNotesJ1939.html
+	
+	
+	John Deere Interview Questions geeksforgeeks
+	JOHN DEERE j1939 protocol interview questions	
+	
+	
+==============================================================================================================
+
+	L&T interview - Embedded C++, RTOS - Asif Ahmed, Vipul Kute, Paricherla Priyanka
+	Project -> STM32, ESP32 - driver - middleware (firmware changes with MCU)
+	
+	
+	Vipul Kute - Senior Engineer - L&T Technology Services  
+	https://in.linkedin.com/in/vipul-kute-70b930136
+
+
+	bit-banging -> UART?
+
+	explain SPI driver working to access multiple SPI slave devices 
+
+	watchdog reset - which routine has caused -> how to know/debug?
+
+	when polling is better than interrupt? (for multiple switches/keypad)
+	
+	how to detect switch press & perform switch debouncing using Counter?
+
+	polymorphism - types? 
+
+	overloading vs overwriting?
+
+	static function -> can is use accessing class variables?
+
+==============================================================
+		
+	L&T HR ROUND (SHOULD HAVE ASKED FOR 12LPA)
+	============ 
+		
+	C++ RTOS
+	INDUSTRIAL CONSUMER PRODUCT
+	
+	5 COMPONENTS TO SALARY -> PF, G, ALLOW
+	
+	L4 15K BONUS ANNUAL, SENIOR ENGG. 
+	L5 VARIABLE 8-10%
+	
+	FREE 5LAC MEDICLAIM
+	
+	RELOCATION ALLOWANCE
+	
+	JOINING BONUS 	
+	
+	8.30AM-6PM
+	
+	5DAYS
+	
+	Internal Job P R - team switch
+	
+	L&T, DHOLE PATIL
+	
+	CLIENT: EATON,
+	
+	Priyanka Paricherla
+	HR Recruiter – Talent Acquisition
+	L&T TECHNOLOGY SERVICES LIMITED
+	L3 Building, Manyata Embassy Business Park, 
+	Nagawara Hobli, Bengaluru-560045
+	Tel: +91, 8861956926
+	
+==============================================================================================================
+	
+	ACCLIVIS, BAVDHAN, PUNE
+	Amol Shrotri <amol.shrotri@acclivistechnologies.com>
+	Deep Darji <darjideep2811@gmail.com>
+	Vikram Bhuskute <vikram.bhuskute@acclivistechnologies.com>
+	
+	BLUETOOTH
+	=========
+	
+	HOW TO GET LOCATION USING BLE BEACONS?
+	
+	HOW DO YOU MEASURE DISTANCE USING BLE?
+	
+	ANY BLE SNIFFER TOOLS YOU USED?
+	
+	WHAT ARE THE MAIN CONFIGURATION PARAMETERS FOR BLE CONNECTION?
+	
+	HOW TO DEAL WITH (DETECT & RESOLVE) BLUETOOTH CONNECTION LOSS/DROP? 
+	
+	WORKED ON ANY CYPRESS BLE CHIPS?  
+	NORDIC, TI, NXP(ECLIPSE), STM32 (CUBEMX, KEIL, CUBE IDE)
+	
+==============================================================================================================
+	
+	RTOS TASK SYNCRONIZATION MECHANISMS?
+	
+	HAVE YOU WRITTEN BSP FOR LINUX BASED SOC?
+	
+	HOW TO DESIGN A TIME CRITICAL, MEMORY CRITICAL & POWER OPTIMIZED EMBEDDED SYSTEMS?
+	
+	HAVE YOU USED LINKER SCRIPTS? (HOW TO PLACE A FUNCTION AT A PARTICULAR ADDRESS?)
+	
+	WHAT DEBUGGING TOOLS HAVE YOU USED? SEGGER, JTAG, ULINK
+	
+	HOW TO TURN OFF THE DIFFERENT SENSORS IN BME680? 
+	I2C DRIVER FOR BME680
+	
+	BOOTLOADER -> FOTA -> STEPS TO CHECK & PREVENT/DEAL WITH DOWNLOADED FIRMWARE CORRUPTION
+	
+	ARM -> LOW POWER MODES
+	
+	ARM -> HARD FAULT, SEGMENTATION ERROR, MEMORY FAULT
+	
+	UART -> HIGH BAUD RATE SUPPORT REQUIRED -> CAN DMA BE USED TO WRITE HIGH SPEED UART DATA 
+			TO MEMORY WITHOUT USING THE MCU CORE/S 
+	UART -> DATA FRAME FOR INTEGRITY CHECK
+	
+	SPI -> HOW TO ENSURE DATA INTEGRITY (CRC) -> DATA FRAME FOR INTEGRITY CHECK
+	
+	I2C -> HOW TO DEAL WITH BUS-BUSY ERROR, WHICH LINE TO DEBUG
+	I2C -> CLOCK STRETCHING
+	
+	TIMER INTERRUPTS -> HOW TO IMPLEMENT EXT. INTRPT. CALLBACK FUNCTION REGISTRATION
+	
+	
+	METHODS TO CALIBRATE ACCELEROMETER / GYROSCOPES
+	
+	
+==============================================================================================================
+
+	int main(void* code) // FUNCTION TAKES ANY DATATYPE
+	{
+		...
+		return (error_code);
+	}
+
+==============================================================================================================
+	
+	IMPLEMENT WITH NECESSARY ERROR CHECKING: int division(int num, int div,int * res);
+	
+	
+	int division(int num, int div,int * res) // ALL POSSIBLE ERROR CHECKS FOR DIVISION
+	{
+		if(div == 0)
+			return -1;			
+		else
+		{	if(res)
+				*res = num / div;
+		}
+			
+		return 0;	
+		
+	}
+	
+==============================================================================================================
+	
+	int arr[5] = {1,3,4,5,6};
+	int *p[] = {arr + 4,arr + 3,arr + 2,arr + 1,arr + 0};
+	int **ptr = p;
+	printf(“%d %d %d”,*(arr+4),ptr+4,p+4); // ??
+
+	
+	int arr[5] = {1,3,4,5,6};
+	char *p = arr;
+	printf("%d",*p); // ??
+	p++;
+	printf("%d",*p); // ??
+	
+==============================================================================================================
+	IMPLEMENT:	int extract_byte(int val, int byte_no);
+
+	
+	int extract_byte(int val, int byte_no)
+	{
+		return ((val >> (8*byte_no)) && 0xFF);	
+	}
+	
+==============================================================================================================
+
+	LITTLE ENDIAN
+	BIG ENDIAN
+	
+	0xABCDEF
+	
+	0xEFCDAB
+	
+	EF
+	CD
+	AB
+	
+	USE OF VOLATILE 
+==============================================================================================================
+	
+	// which one has smaller size -> s1 or s2 ?
+	struct s1
+	{	int i;
+		char c;
+	}
+	
+	struct s2 
+	{	char c;
+		int i;
+	}
+	
+==============================================================================================================
+	
+	int p;
+	static int q;
+	
+	void main()
+	{
+		int x = 0;
+		static int y; 
+		display(x);
+	}
+	
+	
+	void display(int x)
+	{	
+		printf("%d", x);
+		x++;
+		
+		display(x);
+	}
+	
+	WHAT WILL HAPPEN WHEN EXECUTING ABOVE CODE?
+	
+	0
+	1
+	2
+	.
+	.
+	STACK OVERFLOW AT SOME POINT
+	
+	
+	IN WHICH REGION OF MEMORY WOULD p, q, x, y  BE LOCATED?
+	
+	.code - 
+	.data - initialized global / static (local)
+	.bss - unintialized global / static (local)
+	
+	stack - local
+	
+============================================================================================================================================================================================================================
+
+	WIPRO LINUX C OS QTNS - SHANTANU BANERJEE (APMEA - iDEAS-ER&D)
+	
+	detect/debug segmentation fault in main.c -> CORE DUMP
+	
+	Debugging Segmentation Faults and Pointer Problems
+	https://www.cprogramming.com/debugging/segfaults.html
+	
+	How to debug a HardFault on an ARM Cortex-M MCU
+	https://interrupt.memfault.com/blog/cortex-m-fault-debug
+	https://eng.fitbit.com/the-tower-of-terror-a-bug-mystery/
+
+	memory leak analysis tools -> Valgrind -> Memcheck -> how will you find memory leak in 1GB source code in 1 hour? 
+	Memcheck: a memory error detector
+	https://www.cprogramming.com/debugging/valgrind.html
+	https://www.valgrind.org/docs/manual/mc-manual.html
+	
+	Using Valgrind to Find Memory Leaks and Invalid Memory Use
+	https://www.cprogramming.com/debugging/valgrind.html
+	
+	Advanced Memory Management: Dynamic Allocation
+	https://www.cprogramming.com/tutorial/dynamic_memory_allocation.html
+	Memory and Resource Leak Detection Tools
+	https://www.ics.com/blog/explore-memory-and-resource-leak-detection-tools
+	
+	what is cmake? what is it used for? how does it differ from makefile
+	
+	linux commands to add static library, header files to compile c code -> gcc compiler tools
+
+	gdb
+
+	kernel modules?
+
+	ipc
+
+	
+
+
+	malloc calloc
+
+	stack size - overflow detection / prevention
+
+	multithreading
+
+	task / process / thread
+
+	mutex semaphore
+
+	deadlock
+
+	LINUX/Raspberry Pi : custom kernel config - boot image configuration, bootloader, root file system, 
+
+	I2C - structure padding 
+
+	linked list, doubled linked list
+
+	Little-endian vs Big-Endian which is better/more compact?
+
+	Memory paging?
+
+	Virtual Memory Management/Location in Linux
+
+	Memory Swap
+
+	Scheduling Policies - Round-Robin
+
+	OOPs concepts: Inheritance, Types Of Polymorphism?
+
+============================================================================================================================================================================================================================
+	
+	LINKED LIST - NODES MAY BE STORED AT DIFFERENT LOCATIONS, UNLIKE AN ARRAY WHERE THEY ARE STORED IN CONTIGUOUS MEMORY LOCATIONS
+	
+	LINKED LIST VS ARRAY
+	PROS:
+	SIZE CAN BE CHANGED DYNAMICALLY
+	INSERTION & DELETION OF NODES IS FASTER THAN FOR ARRAY
+	
+	CONS:
+	ONLY SEQUENTIAL ACCESS
+	MORE MEORY REQ. PER NODE (TO STORE THE POINTERS)
+		

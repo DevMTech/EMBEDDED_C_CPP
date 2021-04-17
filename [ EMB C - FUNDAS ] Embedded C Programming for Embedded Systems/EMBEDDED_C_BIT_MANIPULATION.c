@@ -1,3 +1,21 @@
+// C FORMAT SPECIFIERS 
+// https://aticleworld.com/format-specifiers-in-c/
+// https://www.geeksforgeeks.org/difference-d-format-specifier-c-language/
+// 
+
+
+#include <stdio.h>
+
+void print_binary(unsigned int num)
+{
+	if(num >> 1) // what, which, how
+	{	print_binary(num >> 1);
+	}
+	printf("%c", (num & 1) ? '1' : '0');
+	// putc((num & 1) ? '1' : '0', stdout);
+}
+
+
 
 // BIG-ENDIAN to LITTLE-ENDIAN & vice-versa
 #define ENDIAN_CHANGE_U16(x) ((((x)&0xFF00)>>8) + (((x)&0xFF)<<8))  // uint16_t x = 0xABCD;
@@ -15,10 +33,22 @@ void myRecurseFunc(void)
 	}	
 } 
 
+
+
 main()
-{
-    printf("n\\t %d %f %c", 23451, 124.658, 'd');
+{	
+	
+
+    printf("\n\t %d %f %c", 23451, 124.658, 'd');
     printf("\n %ld", 78948L);
+    
+    int data = 65;
+    printf("%d\n", data);
+    printf("%u\n", data);
+    printf("%i\n", data);
+    	
+    printf("\nPRINTING BINARY : ");	
+    print_binary(26);
     
     int A, B, C, H, L, i;
 	A = B = C = i = 0; 
@@ -34,17 +64,22 @@ main()
 	A = B = i = 0;
 	B |= (1<<30); // 2^30 = 1073741824
 	printf("\n  B  = %d ", B ); // 1073741824
+	print_binary(B);
 	
 	printf("\n  A&B  = %d ", A&B ); // 0 
+	print_binary(A&B);
 	A |= (1<<30)|(1<<29); 
-	printf("\n  A&B  = %d \n\n", A&B ); // 1073741824
+	printf("\n  A&B  = %d ", A&B ); // 1073741824
+	print_binary(A&B);
+	printf("\n\n");
 	
 	A = 0;
 	while(!(A & (1<<30))) 	//while(!(A&B))
 	{	// A |= (1<<30);
 		//A = 0;
 		A |= (1<<i);
-		printf("\n  %d  A = %d ", ++i, A );        	
+		printf("\n  %d  A = %d ", ++i, A ); 
+		print_binary(A);       	
 	}
 	
 	printf("\n\n");
