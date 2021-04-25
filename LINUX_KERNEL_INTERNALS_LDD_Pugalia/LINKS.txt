@@ -1,0 +1,27 @@
+	
+	Anil Kumar Pugalia LINUX DEVICE DRIVERS BBB KERNEL INTERNALS EMBEDDED C IISc
+	https://www.slideshare.net/anil_pugalia/presentations
+	
+	Experiments, Learning, Sharing done at SysPlay on BeagleBone Black
+	https://github.com/sysplay/bbb
+
+	LINUX RTOS LDD KERNEL BLOG
+	https://sysplay.in/blog/author/anil_pugalia/
+	https://sysplay.in/blog/category/linux-device-drivers/
+	https://sysplay.in/blog/category/linux-kernel-internals/
+
+	LINUX TRAINING - SysPlay eLearning Academy for You Rs. 6000/- + GST per course spanning 10-12 days in 1 month
+	https://sysplay.in/index.php?pagefile=online_trainings
+
+	Phone: +91-80-25610434, +91-8618563272 (WhatsApp)
+	Email: Workshop <workshop@sysplay.in>
+
+	
+
+	https://www.linkedin.com/in/anilpugalia/detail/recent-activity/
+
+	https://www.opensourceforu.com/tag/linux-device-drivers-series/page/2/
+
+	Linux Device Driver - 41 parts RASPBERRY PI SSD1306 I2C DRIVER!!!
+	https://embetronicx.com/tag/device-driver/
+

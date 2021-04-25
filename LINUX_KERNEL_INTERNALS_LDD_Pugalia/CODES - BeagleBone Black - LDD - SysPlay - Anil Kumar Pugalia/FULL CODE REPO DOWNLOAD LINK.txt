@@ -1,0 +1,14 @@
+	
+	CODES - Experiments, Learning, Sharing done at SysPlay on BeagleBone Black
+	https://github.com/sysplay/bbb
+	
+	
+	
+	Anil Kumar Pugalia LINUX DEVICE DRIVERS BBB KERNEL INTERNALS EMBEDDED C IISc
+	https://www.slideshare.net/anil_pugalia/presentations
+	
+	
+	LINUX RTOS LDD KERNEL BLOG
+	https://sysplay.in/blog/author/anil_pugalia/
+	https://sysplay.in/blog/category/linux-device-drivers/
+	https://sysplay.in/blog/category/linux-kernel-internals/

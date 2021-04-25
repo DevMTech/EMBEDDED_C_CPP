@@ -1,4 +1,8 @@
 	
+ 
+
+
+==============================================================================================================
 	
 	What is the project/team I am going to join working on?
 	
@@ -47,8 +51,96 @@
  	Technology park in Pune, Maharashtra
 	Address: B-2, Nagar Rd, Somnath Nagar, Wadgaon Sheri, Pune, Maharashtra 411014
  
+==============================================================================================================
 	
-		
+	Software Engineer, Embedded Systems - GOOGLE, BLR
+	https://careers.google.com/jobs/results/130165325015458502-software-engineer-embedded-systems/
+	
+	https://careers.google.com/jobs/results/130165325015458502/
+	
+	https://careers.google.com/jobs/results/?distance=50&location=India&q=EMBEDDED%20SYSTEMS
+	
+	https://www.google.com/search?client=firefox-b-d&q=Embedded+System+Software+Engineer+at+Google
+	
+	https://www.linkedin.com/jobs/search/?currentJobId=2515728276&keywords=google%20embedded%20software%20engineer&originalSubdomain=in
+	
+	https://opensource.google/
+	https://github.com/google
+	
+	Minimum qualifications:
+• Bachelor's degree in Computer Science, or equivalent practical experience.
+• 5 years of work experience in consumer electronics/embedded systems design.
+• Experience with embedded programming in C/C++
+
+Preferred qualifications:
+• Foundation/experience in computer science, with strong competencies in data structures, algorithms, and software design.
+• Experience in Electronics, or Software development related to Hardware.
+• Experience working with processors and GPU programming.
+• Performance analysis and optimization experience.
+• Demonstrated knowledge of embedded systems development, RTOS concepts, device drivers and hardware/software integration.
+• Knowledge of ARM or x86 assembly, system BIOS, Linux kernel, device drivers.
+
+Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.
+
+As a Software Engineer, Embedded Systems, you'll work on hardware and software. We are a vertically integrated team spanning from hardware through applications.
+
+Google's mission is to organize the world's information and make it universally accessible and useful. Our team combines the best of Google AI, Software, and Hardware to create radically helpful experiences.
+
+Responsibilities
+• Work to enable applications for devices.
+• Develop new software, hardware, and system architecture to support future applications.
+
+
+    Piyush Itankar
+	Embedded System Software Engineer at Google 
+	https://www.linkedin.com/in/itankar/
+	
+	FPGA: From ground up!
+	https://www.linkedin.com/pulse/fpga-from-ground-up-piyush-itankar/
+	
+	Walk through: FPGA development flow
+	https://www.youtube.com/watch?v=JNtI0uCDfow
+	
+	FPGA: How it looks inside : The LUTs
+	https://www.linkedin.com/pulse/fpga-how-looks-inside-luts-piyush-itankar/
+	
+	LATTICE SEMICONDUCTOR ICE40HX1K-STICK-EVN iCE Stick Evaluation Board for the iCE40HX1K FPGA
+	
+	ICE40HX1K-STICK-EVN ₹3,694.43/-
+	https://www.mouser.in/ProductDetail/Lattice/ICE40HX1K-STICK-EVN?qs=hJ2CX3hEdVEyBLaHAEXelA%3D%3D
+	
+	ICE40HX1K-STICK-EVN
+	https://in.element14.com/lattice-semiconductor/ice40hx1k-stick-evn/ice40-hx1k-icestick-eval-kit/dp/2355207
+	
+	https://www.amazon.in/LATTICE-SEMICONDUCTOR-ICE40HX1K-STICK-EVN-Evaluation-iCE40HX1K/dp/B00R3QU9K0
+	
+	RED-V RedBoard - SiFive RISC-V FE310 SoC (SparkFun USA) Rs 2699/- (Excluding GST.)
+	https://www.rhydolabz.com/arduino-compatible-boards-boards-similar-to-arduino-c-152_215/redv-redboard-sifive-riscv-fe310-soc-sparkfun-usa-p-2798.html
+	https://www.sparkfun.com/products/15594
+	https://github.com/pitankar/riscv-sw
+	https://github.com/riscv-rust/hifive1-recover
+	
+[Google]
+I spend most of my time writing lower level C code (sometimes assembly code as needed), OS kernel code, browsing driver code bases, reading IP specs, reverse engineering and spreading the learnings with my teammates :)
+
+[Intel]
+I worked as a Embedded Software Engineer, implementing drivers and stack for Bluetooth (Primarily  in C and Python). I've also coded firmware modules (memory manager and some math algorithms) for a GNSS chip during my internship at Intel. And, lately I've been studying the Bluetooth RF chain and developing a software tool to control the RF Peripheral registers of the controller discretely. I am comfortable working both with software and hardware design/development.
+
+I am personally interested in Hardware-Software co-design/development for solutions which need to be scalable, fast and maintainable using RISCV/ARM, FPGA(verilog/system verilog), Linux and C (or assembly, C++, Python). I am comfortable working with huge code bases. I like working in teams and on projects that involve a multi-disciplinary touch (System level, Hardware level, firmware level etc).
+
+[Others]
+I spend most of my free time digging into Software-Hardware Design. You can browse through few of my projects (put on github):
+
+1. 32 Bit MIPS Processor design and Implementation for DE1Soc FPGA (under active development): Implements the minimum MIPS ISA for a 32 bit single cycle processor. git: https://github.com/pitankar/mips-cpu
+
+2. OS Implementation for a 32 bit ARM Controller (under active development): Implements a scheduler 
+for ARM Cortex M4 processors in C. git: https://github.com/pitankar/arm-rtos
+
+3. Random Hardware design implementation for FPGA: git: https://github.com/pitankar/FPGA-Designs
+
+Find all my previous projects on the links below:
+Github: https://github.com/pitankar
+GitLab: https://gitlab.com/users/pitankar/projects	
 
 	
 ==============================================================================================================

@@ -1,4 +1,0 @@
-total usable hard disk size
-
-
-Usable hard disk size in bytes = (Number of heads or disks) * (Number of tracks per disk) * (Number of sectors per track) * (Number of bytes per sector, i.e. sector size)
