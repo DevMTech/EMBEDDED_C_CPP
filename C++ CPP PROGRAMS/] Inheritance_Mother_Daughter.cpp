@@ -5,9 +5,18 @@ using namespace std;
 	class Father
 	{
 		public:
-			Father(){};	
-			void greet(string s)
-			{	cout << endl << " Hi " << s << "!" << endl;
+			//Father(){};
+			
+			Father()
+			{	cout << endl << "FATHER C'TOR" << endl;
+			}
+			
+			~Father()
+			{	cout << endl << "FATHER D'TOR" << endl;
+			}
+				
+			void greet(string s = "BUDDY")
+			{	cout << endl << "F:: Hi " << s << "!" << endl;
 			}
 	};
 	
@@ -15,22 +24,21 @@ using namespace std;
 	{
 		public:
 			Mother()
-			{	cout << endl << "MOTHER CTOR" << endl;
+			{	cout << endl << "MOTHER C'TOR" << endl;
 			}
 			
 			~Mother()
-			{
-				cout << endl << "MOTHER DTOR" << endl;	
+			{	cout << endl << "MOTHER D'TOR" << endl;	
 			}
-			//Mother(int a): protecVar(a){}
 			
-			void printName(string n)
-			{
-				cout << endl << " I am " << n << endl;
+			Mother(int a): protecVar(a){};
+			
+			void printName(string n = "NeMo")
+			{	cout << endl << "M:: I am " << n << "." << endl;
 			}
 			
 		protected:
-			int protecVar;	
+			int protecVar = 0;	
 			
 	};
 	
@@ -40,26 +48,28 @@ using namespace std;
 		public:
 			//Daughter(int b): protecVar(b){}
 			Daughter()
-			{	cout << endl << "DAUGHTER CTOR" << endl;
+			{	cout << endl << "DAUGHTER C'TOR" << endl;
 			}
 			
 			~Daughter()
-			{	cout << endl << "DAUGHTER DTOR" << endl;
+			{	cout << endl << "DAUGHTER D'TOR" << endl;
 			}
 						
 			printVar()
-			{
-				cout << " " << protecVar;
+			{	cout << endl << " protectVar = " << protecVar << endl;
 			}
 		
 	};
 	
 	int main()
-	{	Mother m;
+	{	
 		Daughter d;
+		Mother m;
 		
+		d.printName();
 		m.printName("Mother");
 		d.printName("Daughter");
+		d.greet();
 		d.greet("Dad");
 		
 		d.printVar();

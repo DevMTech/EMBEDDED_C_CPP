@@ -1,0 +1,86 @@
+SEDEMAC MECHATRONICS
+Shashikanth Suryanarayanan
+http://www2.technologyreview.com/tr35/profile.aspx?TRID=874 
+Associate Professor
+Department of Mechanical Engineering
+Indian Institute of Technology, Bombay
+Powai, Mumbai 400 076, India
+ 
+email: shashisn@iitb.ac.in
+Phone: +91-22-2576-7546
+Fax: +91-22-2572-6875
+https://www.me.iitb.ac.in/~shashisn/bio.html
+
+Amey Wadegaonkar
+Lead Engineer, R&D at SEDEMAC Mechatronics
+https://in.linkedin.com/in/amey-wadegaonkar-5b2a6099
+
+Sapana Bhatkar
+Talent Acquisition at SEDEMAC Mechatronics
+https://in.linkedin.com/in/sapana-bhatkar-1199a389
+
+Zeba Shaikh
+Connecting Talent with Opportunities - SEDEMAC
+https://in.linkedin.com/in/zeba-shaikh-69524065
+
+
+R2D3 IIoT Platform
+https://www.sedemac.com/rcms.php
+SEDEMAC’s R2D3 IIoT platform provides a web-based control and monitoring solution for SEDEMAC’s control modules.
+The user can access the genset information & parameters such as fuel level, oil pressure, engine temperature, 
+load and so on from anywhere and anytime at fingertips through R2D3 Apps (mobile application) or R2D3 Hub (web UI).
+Inbound communication (GCU to R2D3 Gateway) - MODBUS over RS485 & Controller Area Network (CAN)
+Outbound Communication (Gateway to Server / Cloud) - 4G LTE with 2G, 3G Fallback & Wi-Fi
+
+
+FEATURES
+
+    Inbound communication (GCU to R2D3 Gateway) - MODBUS over RS485 & Controller Area Network (CAN)
+    Outbound Communication (Gateway to Server / Cloud) - 4G LTE with 2G, 3G Fallback & Wi-Fi
+    50+ parameters displayed in real time (configurable update time) for a fleet of up to 10,000 generators
+    Web Application:
+        List of all available generators categorized with respect to status - Ready, Offline, Fault and Running
+        Map View: Neat dashboard showing a geographical map of all available devices
+        Analytics & Report: Analytical reports to measure and improve generator performance. 
+		Customization reports for ensuring metric clarity on operational performance of Generator
+        Remote Start, Stop, Mode Set and Alarm Acknowledge on the generator landing page
+        Customizable Asset Tagging
+    API Support for enterprise grade integrations
+    Android Mobile Application for on-the-go operations
+
+
+SPECIFICATIONS
+Specification
+
+    Operating / Storage Temperature: -40°C to 80°C as per IEC 60068-2-1, 2
+    Vibration: 2G in X, Y, Z for 10-500 Hz as per IEC 60068-2-6
+    Humidity: 0% to 93% RH as per IEC 60068-2-78
+    EMI / EMC: Compliance as per IEC 61000-6-2, 4
+    Power Supply: 8V - 32V DC continuous
+    Shock: 15g for 6 mS, compliance as per IEC 60068-2-27
+
+Technical Specifications
+
+    Inbound Communication: RS485 & CAN
+    Outbound Communication: Cellular modem 4G LTE with fallback 2G/3G*, standard-size SIM & Wi-Fi
+    Digital Output: 2 x 0.75A high-side drivers configurable outputs
+    Digital Input: 2 configurable tri-state inputs
+    Analog Input: 1 resistive input (10Ω - 1kΩ); fully configurable for various sources
+    Mounting Type: Standard DIN rail mount & Screw mount
+    Web Application compatible with-IE 11, Chrome, Safari & Firefox
+    Responsive, Scroll-less design for brisk operations
+    Role Based Access: Three tier role-based access control for central headquarters, dealer network and operational staff
+    One-Click MODBUS upload & configuration
+    Reporting: Generator set wise reporting
+    Trends: Parameter wise trends reports versus time and GCU unit
+
+OTTO - SEDEMAC - GNSS, cellular internet GPRS (2G), and inertia sensor unit. 
+OTTO interacts with on-board ECUs, SEDEMAC Device Management Service (SDMS), and data server via GPRS (2G) communication module.
+https://www.sedemac.com/otto.php
+    Inbound communication (ECU to OTTO gateway) and outbound communication (gateway to SDMS)
+    GNSS for geo-fencing and location tracking to detect thefts
+    Can detect unauthorised use of the vehicle
+    API support for enterprise grade integrations
+    Onboard, manage, monitor, and update the devices using the SEDEMAC Device Management System (SDMS)
+
+https://www.glassdoor.co.in/Reviews/Sedemac-Mechatronics-Reviews-E511576.htm

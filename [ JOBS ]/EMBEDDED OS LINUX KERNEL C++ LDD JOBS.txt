@@ -1,5 +1,260 @@
+==============================================================================================================
+	
+	What is the project/team I am going to join working on?
+	
+	What is the on-boarding process like?
+	
+	What are the best things about working in this company? (What do you like most about working here?)
+	
+	Timings, Work-Life Balance?
+	
+	Tell HR that once I have offer letter I can go for NP and join 1 month after that. 
+	wait after HRs discussion and if they don't provide letter within 2 days u should ask them
+	Keep taking updates with HR till offer letter is sent
+	
+	Depends on offer in hand...koi offer hoga to uske uper 2-3Lakh bol do, Nhi to 10.5-11
+	
+	HR me to salary structure and fixed amount puchh lena
+	
+	PF ka ki sara PF salary me se jayega ya half
+	 
+	joining bonus
+	
+	Ctc and extra benefits + ask hr ki in hand kitna ayega... Sbse imp h.. bcz sbka apna apna deduction hota h
+	
+	Future opportunities
+	
+	And promotions/salary hike me koi limits and restrictions (Like cdac.. ki max 10% hi hoga ya kuch)
+	
+	Probation period and notice period bhi pta kr lena
+	
+
+	CTC goes to 14 as Accenture has 21% variable portion
+	ask for 12, Bcuz first switch and u have stability of 3.7 yrs
 
 
+	CTC = Gross Salary + PF + Gratuity
+	Gross Salary = Basic Salary + HRA + Other Allowances
+	Net Salary = Basic Salary + HRA + Allowances - Income Tax - Employer's Provident Fund - Professional Tax
+	
+	
+	
+		https://www.ambitionbox.com/profile/senior-firmware-engineer-salary
+	
+==============================================================================================================	
+
+	Amazon Development Centre India Private Limited
+ 	Technology park in Pune, Maharashtra
+	Address: B-2, Nagar Rd, Somnath Nagar, Wadgaon Sheri, Pune, Maharashtra 411014
+ 
+==============================================================================================================
+	
+	Software Engineer, Embedded Systems - GOOGLE, BLR
+	https://careers.google.com/jobs/results/130165325015458502-software-engineer-embedded-systems/
+	
+	https://careers.google.com/jobs/results/130165325015458502/
+	
+	https://careers.google.com/jobs/results/?distance=50&location=India&q=EMBEDDED%20SYSTEMS
+	
+	https://www.google.com/search?client=firefox-b-d&q=Embedded+System+Software+Engineer+at+Google
+	
+	https://www.linkedin.com/jobs/search/?currentJobId=2515728276&keywords=google%20embedded%20software%20engineer&originalSubdomain=in
+	
+	https://opensource.google/
+	https://github.com/google
+	
+	Minimum qualifications:
+• Bachelor's degree in Computer Science, or equivalent practical experience.
+• 5 years of work experience in consumer electronics/embedded systems design.
+• Experience with embedded programming in C/C++
+
+Preferred qualifications:
+• Foundation/experience in computer science, with strong competencies in data structures, algorithms, and software design.
+• Experience in Electronics, or Software development related to Hardware.
+• Experience working with processors and GPU programming.
+• Performance analysis and optimization experience.
+• Demonstrated knowledge of embedded systems development, RTOS concepts, device drivers and hardware/software integration.
+• Knowledge of ARM or x86 assembly, system BIOS, Linux kernel, device drivers.
+
+Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.
+
+As a Software Engineer, Embedded Systems, you'll work on hardware and software. We are a vertically integrated team spanning from hardware through applications.
+
+Google's mission is to organize the world's information and make it universally accessible and useful. Our team combines the best of Google AI, Software, and Hardware to create radically helpful experiences.
+
+Responsibilities
+• Work to enable applications for devices.
+• Develop new software, hardware, and system architecture to support future applications.
+
+
+    Piyush Itankar
+	Embedded System Software Engineer at Google 
+	https://www.linkedin.com/in/itankar/
+	
+	FPGA: From ground up!
+	https://www.linkedin.com/pulse/fpga-from-ground-up-piyush-itankar/
+	
+	Walk through: FPGA development flow
+	https://www.youtube.com/watch?v=JNtI0uCDfow
+	
+	FPGA: How it looks inside : The LUTs
+	https://www.linkedin.com/pulse/fpga-how-looks-inside-luts-piyush-itankar/
+	
+	LATTICE SEMICONDUCTOR ICE40HX1K-STICK-EVN iCE Stick Evaluation Board for the iCE40HX1K FPGA
+	
+	ICE40HX1K-STICK-EVN ₹3,694.43/-
+	https://www.mouser.in/ProductDetail/Lattice/ICE40HX1K-STICK-EVN?qs=hJ2CX3hEdVEyBLaHAEXelA%3D%3D
+	
+	ICE40HX1K-STICK-EVN
+	https://in.element14.com/lattice-semiconductor/ice40hx1k-stick-evn/ice40-hx1k-icestick-eval-kit/dp/2355207
+	
+	https://www.amazon.in/LATTICE-SEMICONDUCTOR-ICE40HX1K-STICK-EVN-Evaluation-iCE40HX1K/dp/B00R3QU9K0
+	
+	RED-V RedBoard - SiFive RISC-V FE310 SoC (SparkFun USA) Rs 2699/- (Excluding GST.)
+	https://www.rhydolabz.com/arduino-compatible-boards-boards-similar-to-arduino-c-152_215/redv-redboard-sifive-riscv-fe310-soc-sparkfun-usa-p-2798.html
+	https://www.sparkfun.com/products/15594
+	https://github.com/pitankar/riscv-sw
+	https://github.com/riscv-rust/hifive1-recover
+	
+[Google]
+I spend most of my time writing lower level C code (sometimes assembly code as needed), OS kernel code, browsing driver code bases, reading IP specs, reverse engineering and spreading the learnings with my teammates :)
+
+[Intel]
+I worked as a Embedded Software Engineer, implementing drivers and stack for Bluetooth (Primarily  in C and Python). I've also coded firmware modules (memory manager and some math algorithms) for a GNSS chip during my internship at Intel. And, lately I've been studying the Bluetooth RF chain and developing a software tool to control the RF Peripheral registers of the controller discretely. I am comfortable working both with software and hardware design/development.
+
+I am personally interested in Hardware-Software co-design/development for solutions which need to be scalable, fast and maintainable using RISCV/ARM, FPGA(verilog/system verilog), Linux and C (or assembly, C++, Python). I am comfortable working with huge code bases. I like working in teams and on projects that involve a multi-disciplinary touch (System level, Hardware level, firmware level etc).
+
+[Others]
+I spend most of my free time digging into Software-Hardware Design. You can browse through few of my projects (put on github):
+
+1. 32 Bit MIPS Processor design and Implementation for DE1Soc FPGA (under active development): Implements the minimum MIPS ISA for a 32 bit single cycle processor. git: https://github.com/pitankar/mips-cpu
+
+2. OS Implementation for a 32 bit ARM Controller (under active development): Implements a scheduler 
+for ARM Cortex M4 processors in C. git: https://github.com/pitankar/arm-rtos
+
+3. Random Hardware design implementation for FPGA: git: https://github.com/pitankar/FPGA-Designs
+
+Find all my previous projects on the links below:
+Github: https://github.com/pitankar
+GitLab: https://gitlab.com/users/pitankar/projects	
+
+	
+==============================================================================================================
+Senior Firmware Engineer
+Cooper Lighting Solutions
+Signify, Pune, Maharashtra
+
+https://in.indeed.com/viewjob?jk=54d87200ad264a02
+
+*GENERIC EMBEDDED SYSTEMS FIRMWARE ENGINEER PROFILE/SKILLS/REQUIREMENTS/SPECIFICATIONS*
+
+Knowledge of *OOPS (Object oriented programming) concept*, 
+Embedded SW in *C, C++, RTOS (Real time operating system)*;
+
+*CPU concepts – stack, heap, memory mapping, linkers*
+
+embedded *firmware application and bootloader development* for 8 Bit, 
+*16 Bit and 32 Bit - Cortex ARM* microcontrollers/microprocessors.
+
+Development of *device drivers / software libraries / application* 
+software in *C / C++ / Startup script for ARM7 / ARM-Cortex M3 / M4 / M7* platforms.
+
+Knowledge of design of *serial / network communications* including 
+*UART (RS-232, RS-485), CAN, I2C, SPI, USB, Ethernet (TCP/IP, UDP), EtherCAT.*
+
+Expertise with different *digital and analog peripherals* such as 
+*GPIO, ADC, DMA, Timer, Counters, Interrupts, RTC, Comparator.*
+
+Experience with *wireless protocol & technologies* such as 
+*Zigbee, Bluetooth, Wi-Fi,* etc
+
+Experience in *Linux programming concepts* 
+*(Processes, Threads, Signal handling, Socket programming).*
+
+Experience *debugging microprocessor firmware and hardware* using interface like *JTAG and SWD* and lab equipment such as 
+*logic analyzers, serial data analyzers, wireless sniffers, oscilloscopes, signal generator and multimeters,* etc.
+
+Knowledge of digital design including *embedded processors/ FPGA, memory, ADC/DACs, Displays*
+
+Experience on *Stepper motor control*. (Metrohm Pune)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Senior WiFi Firmware Engineer
+Espressif Systems
+Pune, Maharashtra
+
+https://in.indeed.com/viewjob?from=appsharedroid&jk=98a8f9dc64b9e7b0
+
+ About Role:
+
+1. The candidate will be responsible for WLAN FW design and development for Espressif IoT platforms.
+
+2. This includes implementing functionality as per 802.11 standard as well as custom WiFi solutions for Espressif IoT infrastructure.
+
+3. The candidate will also be responsible for supporting Espressif customers with different WiFi features.
+
+Minimum Qualification
+
+1. BE/B.Tech in Computer Science with minimum of 5-10 years of experience.
+
+2. Strong Computer Science Fundamentals.
+
+3. Technical experience in developing WLAN firmware/driver
+
+4. Strong C design and coding skills and experience in low-level SW debugging (interaction with HW)
+
+5. Experience with 802.11abgn/ac MAC layer, understanding of WiFi STA/AP functionality as per 802.11 standards.
+
+6. Experience in wifi sniffer analysis & debugging using Wireshark/Omnipeek
+
+7. Familiarity with RTOS concepts.
+
+8. Understanding of TCP/IP stack including DHCP, ARP, NAT and other protocols. 9. Strong analytical & problem-solving skills.
+
+Nice to have skills
+
+1. Understanding of WiFi PHY concepts such as OFDM, MIMO, beam-forming, antenna basics.
+
+2. WiFi-BT coex debugging.
+
+3. Experience in RTOS programming(Threadx/FreeRTOS/other) for ARM/Xtensa microprocessors.
+
+4. Prior experience in developing WiFi protocols such as WPS, P2P, WiFi-Aware and others.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	EMERSON PUNE
+	
+Technical Skills required:
+    • Strong programming knowledge of C, C++
+    • Strong experience in RTOS based system e.g. VxWorks, UCOS, Threadx, MQX.
+    • Experience in embedded databases such as SQLite.
+    • Strong experience writing Qt applications that target Linux and/or Windows 10.
+    • Strong experience in bootloaders such as U-boot.
+    • Device driver development knowledge.
+    • Hands on experience on various micro-controllers / multi-core processor-based systems.
+    • Expertise in communication protocols such as Ethernet, TCP/IP, Modbus TCP, RS232, RS485, SPI etc.
+    • Experience in utilizing TLS encryption and authentication methods.
+    • Knowledge of industrial communication protocols such as EtherCAT, Profinet, Ethernet I/P, etc.
+    • Familiar with IDEs such as KEIL, IAR, Eclipse etc.
+    • Hands on experience with usage of JTAG debuggers, Emulators, oscilloscopes, function generators etc.
+ 
+ Other skills required:
+    • Familiar with version control tools such as VSS, SVN, CVS etc. Experience with RTC is a plus.
+    • Familiar with Work Item and Defect tracking tools such as Jira, Bugzilla.
+    • Experience in working with internal and external teams/vendors.
+  
+Experience:
+    • 3+ years of experience in embedded software development
+    • Technically sound in embedded software development
+    • Effective verbal and written communication skills as well as good presentation skills
+    • Familiar with Agile and traditional software development lifecycle in a product development environment
+    • Prior knowledge about PLCs, DCS, MES systems and their programming would be an added advantage.
+	
+	
 ------------------------------------------------------------------------------------------------------------------------------------------
 ROBOT PROCESS AUTOMATION - WEILDING ROBOT PROGRAMMING 
 
@@ -62,84 +317,8 @@ SIMPLE FLASH FILE SYSTEM FOR DATA LOGGING
 	
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-Altran Americas/Aricent/Capgemini
 
-	https://www.glassdoor.co.in/Interview/Altran-Americas-Embedded-Software-Engineer-Interview-Questions-EI_IE28187.0,15_KO16,42.htm
-	https://www.glassdoor.co.in/Interview/Altran-Americas-Gurgaon-Interview-Questions-EI_IE28187.0,15_IL.16,23_IC2921225_IP9.htm
-	
-Linux device driver majorly kernel threads and kernel synchronization mechanism. 
-Process synchronization and basic C questions. 
-Interrupts sorting of an array.
-Where is static variable stored?   
-
-important topics of c language like storage classes,qualifiers,data structures,strings,static variables,global variables,
-single linked list program for swap the nodes of list,swap the two numbers without using the temporary variable,
-
-how to multiply a number with 3.5 without using *,/,% operator?   
-
-C,C++, Data structures, OS and kernel development. 
-How will you find End of a circular linked list?
-
- algo to delete a node in linked list, some questions on bit operators
-node deletion in a linked list.
-reversal of string
-
-Data structures(linked list), Networking  
-- OS basics
-- Linked list
-- System programming
-- C basics
-- N/W basics	
-	
-Write a C program to count how many words in a sentence.  
-Explain what is I2C protocol?   	
-	
-kindly go through mouthshut website and search for aricent interview process before going to interview . 
-Kindly ignore some hr names mentioned in the post they have written same thing what i have faced . 
-Worst Interview process ever in my life . only less expectation matters . 
-If you are a hard worker and money oriented then don't go there . 
-They don't release offer letter and play with you . 
-Manager don't take it heartily :) you don't have knowledge so 
-https://www.mouthshut.com/product-reviews/Aricent-Technologies-Holdings-Ltd-reviews-925609396
-https://www.mouthshut.com/review/Aricent-Technologies-Holdings-Ltd-review-qopsomnsnnn
-
-
-https://gdpi.hitbullseye.com/aricent.php
-data structures like queue stack tree
-implement stack in java, difference between hashmap and hashtable, 
-what is inheritance, difference between method overloading and ovveriding.
-------------------------------------------------------------------------------------------------------------------------------------------
  
-
-LG SOFT INTERVIEW QTNS - CONTROLLER DESIGN PROFILE
-
-START UP CODE, WHAT DOES IT DO?
-IS THERE ONE SINGLE STACK OR SEPARATE STACK PER FUNCTION?
-CAUSES OF STACK OVERFLOW?
-STATIC, VOLATILE, STACK, HEAP
-WHERE ARE CONST, STATIC, VOLATILE, GLOBAL VARIABLES, CHAR STRINGS STORED IN MEMORY 
-STRUCTURE VS UNION
-MEMORY LEAK, NULL POINTER VS DANGLING POINTER,
-WATCH DOG TIMER, TIMER INTERRUPT - USES?
-MAIN DIFF. B/W I2C & SPI, MAX. NO. OF SLAVES FOR EACH PROTOCOL 
-HTTP VS MQTT
-CRC - DIFFERENT TYPES OF CHECKSUMS?
-NFC, PYTHON, BLUEZ, RASPBERRY PI, 
-
-WHEN TO USE CERAMIC & WHEN TO USE ELECTROLYTIC CAPACITOR?
-WHEN DO YOU SINK OR SOURCE A PIN?
-BUCK-BOOST CONVERTOR FOR POWER SOURCE
-REVERSE POLARITY PROTECTION CKT FOR PCB
-HIGH CURRENT PROTECTION CKT (FROM BATTERY)
-SWITCH DEBOUCING - FOR MECHANICAL & CAP. TOUCH SWITCH? 
-RDS_on OF JFET, SWITCHING FREQ. OF JFET?
-NO LOAD CURRENT OF PCB BOARD? 
-
-18650 Battery charger reverse polarity protection
-	http://blog.deconinck.info/post/2017/12/22/18650-Battery-charger-reverse-polarity-protection
-
-------------------------------------------------------------------------------------------------------------------------------------------
-
 
 Linux OS Development Engineer
 https://www.naukri.com/job-listings-Linux-OS-Development-Engineer-IBM-India-Pvt-Limited-Bengaluru-4-to-8-years-170220902569
@@ -151,6 +330,7 @@ Proven expertise on C and C++ on Linux
 Proven expertise OS internals with focus on Linux
 Proven expertise on data structures, OOPS programming, etc.
 Experience with scripting languages such as Python, Shell Scripting
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Embedded Linux ( C++ Developer)

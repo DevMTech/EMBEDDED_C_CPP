@@ -1,149 +1,202 @@
 	
  
 
+CLOCK STRETCHING
 
-==============================================================================================================
-	
-	What is the project/team I am going to join working on?
-	
-	What is the on-boarding process like?
-	
-	What are the best things about working in this company? (What do you like most about working here?)
-	
-	Timings, Work-Life Balance?
-	
-	Tell HR that once I have offer letter I can go for NP and join 1 month after that. 
-	wait after HRs discussion and if they don't provide letter within 2 days u should ask them
-	Keep taking updates with HR till offer letter is sent
-	
-	Depends on offer in hand...koi offer hoga to uske uper 2-3Lakh bol do, Nhi to 10.5-11
-	
-	HR me to salary structure and fixed amount puchh lena
-	
-	PF ka ki sara PF salary me se jayega ya half
-	 
-	joining bonus
-	
-	Ctc and extra benefits + ask hr ki in hand kitna ayega... Sbse imp h.. bcz sbka apna apna deduction hota h
-	
-	Future opportunities
-	
-	And promotions/salary hike me koi limits and restrictions (Like cdac.. ki max 10% hi hoga ya kuch)
-	
-	Probation period and notice period bhi pta kr lena
-	
+BUS ARBITRATION
 
-	CTC goes to 14 as Accenture has 21% variable portion
-	ask for 12, Bcuz first switch and u have stability of 3.7 yrs
+INERRUPT HANDLER
 
+BOOTING SEQ
 
-	CTC = Gross Salary + PF + Gratuity
-	Gross Salary = Basic Salary + HRA + Other Allowances
-	Net Salary = Basic Salary + HRA + Allowances - Income Tax - Employer's Provident Fund - Professional Tax
-	
-	
-	
-		https://www.ambitionbox.com/profile/senior-firmware-engineer-salary
-	
-==============================================================================================================	
+EXPLAIN I2C, UART
 
-	Amazon Development Centre India Private Limited
- 	Technology park in Pune, Maharashtra
-	Address: B-2, Nagar Rd, Somnath Nagar, Wadgaon Sheri, Pune, Maharashtra 411014
- 
-==============================================================================================================
-	
-	Software Engineer, Embedded Systems - GOOGLE, BLR
-	https://careers.google.com/jobs/results/130165325015458502-software-engineer-embedded-systems/
-	
-	https://careers.google.com/jobs/results/130165325015458502/
-	
-	https://careers.google.com/jobs/results/?distance=50&location=India&q=EMBEDDED%20SYSTEMS
-	
-	https://www.google.com/search?client=firefox-b-d&q=Embedded+System+Software+Engineer+at+Google
-	
-	https://www.linkedin.com/jobs/search/?currentJobId=2515728276&keywords=google%20embedded%20software%20engineer&originalSubdomain=in
-	
-	https://opensource.google/
-	https://github.com/google
-	
-	Minimum qualifications:
-• Bachelor's degree in Computer Science, or equivalent practical experience.
-• 5 years of work experience in consumer electronics/embedded systems design.
-• Experience with embedded programming in C/C++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Preferred qualifications:
-• Foundation/experience in computer science, with strong competencies in data structures, algorithms, and software design.
-• Experience in Electronics, or Software development related to Hardware.
-• Experience working with processors and GPU programming.
-• Performance analysis and optimization experience.
-• Demonstrated knowledge of embedded systems development, RTOS concepts, device drivers and hardware/software integration.
-• Knowledge of ARM or x86 assembly, system BIOS, Linux kernel, device drivers.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As a Software Engineer, Embedded Systems, you'll work on hardware and software. We are a vertically integrated team spanning from hardware through applications.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Google's mission is to organize the world's information and make it universally accessible and useful. Our team combines the best of Google AI, Software, and Hardware to create radically helpful experiences.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Responsibilities
-• Work to enable applications for devices.
-• Develop new software, hardware, and system architecture to support future applications.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Altran Americas/Aricent/Capgemini
+
+	https://www.glassdoor.co.in/Interview/Altran-Americas-Embedded-Software-Engineer-Interview-Questions-EI_IE28187.0,15_KO16,42.htm
+	https://www.glassdoor.co.in/Interview/Altran-Americas-Gurgaon-Interview-Questions-EI_IE28187.0,15_IL.16,23_IC2921225_IP9.htm
+	
+Linux device driver majorly kernel threads and kernel synchronization mechanism. 
+Process synchronization and basic C questions. 
+Interrupts sorting of an array.
+Where is static variable stored?   
+
+important topics of c language like storage classes,qualifiers,data structures,strings,static variables,global variables,
+single linked list program for swap the nodes of list,swap the two numbers without using the temporary variable,
+
+how to multiply a number with 3.5 without using *,/,% operator?   
+
+C,C++, Data structures, OS and kernel development. 
+How will you find End of a circular linked list?
+
+ algo to delete a node in linked list, some questions on bit operators
+node deletion in a linked list.
+reversal of string
+
+Data structures(linked list), Networking  
+- OS basics
+- Linked list
+- System programming
+- C basics
+- N/W basics	
+	
+Write a C program to count how many words in a sentence.  
+Explain what is I2C protocol?   	
+	
+kindly go through mouthshut website and search for aricent interview process before going to interview . 
+Kindly ignore some hr names mentioned in the post they have written same thing what i have faced . 
+Worst Interview process ever in my life . only less expectation matters . 
+If you are a hard worker and money oriented then don't go there . 
+They don't release offer letter and play with you . 
+Manager don't take it heartily :) you don't have knowledge so 
+https://www.mouthshut.com/product-reviews/Aricent-Technologies-Holdings-Ltd-reviews-925609396
+https://www.mouthshut.com/review/Aricent-Technologies-Holdings-Ltd-review-qopsomnsnnn
 
 
-    Piyush Itankar
-	Embedded System Software Engineer at Google 
-	https://www.linkedin.com/in/itankar/
-	
-	FPGA: From ground up!
-	https://www.linkedin.com/pulse/fpga-from-ground-up-piyush-itankar/
-	
-	Walk through: FPGA development flow
-	https://www.youtube.com/watch?v=JNtI0uCDfow
-	
-	FPGA: How it looks inside : The LUTs
-	https://www.linkedin.com/pulse/fpga-how-looks-inside-luts-piyush-itankar/
-	
-	LATTICE SEMICONDUCTOR ICE40HX1K-STICK-EVN iCE Stick Evaluation Board for the iCE40HX1K FPGA
-	
-	ICE40HX1K-STICK-EVN ₹3,694.43/-
-	https://www.mouser.in/ProductDetail/Lattice/ICE40HX1K-STICK-EVN?qs=hJ2CX3hEdVEyBLaHAEXelA%3D%3D
-	
-	ICE40HX1K-STICK-EVN
-	https://in.element14.com/lattice-semiconductor/ice40hx1k-stick-evn/ice40-hx1k-icestick-eval-kit/dp/2355207
-	
-	https://www.amazon.in/LATTICE-SEMICONDUCTOR-ICE40HX1K-STICK-EVN-Evaluation-iCE40HX1K/dp/B00R3QU9K0
-	
-	RED-V RedBoard - SiFive RISC-V FE310 SoC (SparkFun USA) Rs 2699/- (Excluding GST.)
-	https://www.rhydolabz.com/arduino-compatible-boards-boards-similar-to-arduino-c-152_215/redv-redboard-sifive-riscv-fe310-soc-sparkfun-usa-p-2798.html
-	https://www.sparkfun.com/products/15594
-	https://github.com/pitankar/riscv-sw
-	https://github.com/riscv-rust/hifive1-recover
-	
-[Google]
-I spend most of my time writing lower level C code (sometimes assembly code as needed), OS kernel code, browsing driver code bases, reading IP specs, reverse engineering and spreading the learnings with my teammates :)
+https://gdpi.hitbullseye.com/aricent.php
+data structures like queue stack tree
+implement stack in java, difference between hashmap and hashtable, 
+what is inheritance, difference between method overloading and ovveriding.
 
-[Intel]
-I worked as a Embedded Software Engineer, implementing drivers and stack for Bluetooth (Primarily  in C and Python). I've also coded firmware modules (memory manager and some math algorithms) for a GNSS chip during my internship at Intel. And, lately I've been studying the Bluetooth RF chain and developing a software tool to control the RF Peripheral registers of the controller discretely. I am comfortable working both with software and hardware design/development.
+------------------------------------------------------------------------------------------------------------------------------------------
 
-I am personally interested in Hardware-Software co-design/development for solutions which need to be scalable, fast and maintainable using RISCV/ARM, FPGA(verilog/system verilog), Linux and C (or assembly, C++, Python). I am comfortable working with huge code bases. I like working in teams and on projects that involve a multi-disciplinary touch (System level, Hardware level, firmware level etc).
+LG SOFT INTERVIEW QTNS - CONTROLLER DESIGN PROFILE
 
-[Others]
-I spend most of my free time digging into Software-Hardware Design. You can browse through few of my projects (put on github):
+START UP CODE, WHAT DOES IT DO?
+IS THERE ONE SINGLE STACK OR SEPARATE STACK PER FUNCTION?
+CAUSES OF STACK OVERFLOW?
+STATIC, VOLATILE, STACK, HEAP
+WHERE ARE CONST, STATIC, VOLATILE, GLOBAL VARIABLES, CHAR STRINGS STORED IN MEMORY 
+STRUCTURE VS UNION
+MEMORY LEAK, NULL POINTER VS DANGLING POINTER,
+WATCH DOG TIMER, TIMER INTERRUPT - USES?
+MAIN DIFF. B/W I2C & SPI, MAX. NO. OF SLAVES FOR EACH PROTOCOL 
+HTTP VS MQTT
+CRC - DIFFERENT TYPES OF CHECKSUMS?
+NFC, PYTHON, BLUEZ, RASPBERRY PI, 
 
-1. 32 Bit MIPS Processor design and Implementation for DE1Soc FPGA (under active development): Implements the minimum MIPS ISA for a 32 bit single cycle processor. git: https://github.com/pitankar/mips-cpu
+WHEN TO USE CERAMIC & WHEN TO USE ELECTROLYTIC CAPACITOR?
+WHEN DO YOU SINK OR SOURCE A PIN?
+BUCK-BOOST CONVERTOR FOR POWER SOURCE
+REVERSE POLARITY PROTECTION CKT FOR PCB
+HIGH CURRENT PROTECTION CKT (FROM BATTERY)
+SWITCH DEBOUCING - FOR MECHANICAL & CAP. TOUCH SWITCH? 
+RDS_on OF JFET, SWITCHING FREQ. OF JFET?
+NO LOAD CURRENT OF PCB BOARD? 
 
-2. OS Implementation for a 32 bit ARM Controller (under active development): Implements a scheduler 
-for ARM Cortex M4 processors in C. git: https://github.com/pitankar/arm-rtos
+18650 Battery charger reverse polarity protection
+	http://blog.deconinck.info/post/2017/12/22/18650-Battery-charger-reverse-polarity-protection
 
-3. Random Hardware design implementation for FPGA: git: https://github.com/pitankar/FPGA-Designs
+------------------------------------------------------------------------------------------------------------------------------------------
 
-Find all my previous projects on the links below:
-Github: https://github.com/pitankar
-GitLab: https://gitlab.com/users/pitankar/projects	
+	VINOD JADHAV - MIRAFRA HYD
+	POST: FIRMWARE VALIDATION ENGINEER (NON-DEVELOPMENTAL)
+	CLIENT - XILINX, QUALCOMM, INTEL
+
+Good in Firmware Development
+-Good in C Programming  
+
+-Optional
+-Good Experinece in Bootloader/firmware 
+-Good to have Experince in Linux Environment,
+-Good to have testing with Python/Perl scripting
 
 	
-==============================================================================================================
+	code to reverse a string:
+	
+	#define ARRSIZE(X) sizeof(X)/sizeof(X[0])
+	
+	//char* strrev(char* str)
+	
+	char* strrevv(char *str)//, int limit)
+	{
+		//char str[] = "abcdef";
+		int size=0; // = sizeof(str);
+		
+		char* s = str;
+		 
+		while(!*s)
+		{
+			++s;
+			++size;
+		}
+		
+//		int size = ARRSIZE(str); 
+		char* rev = NULL;
+
+		for(int i=0; i<size; ++i)
+		{	rev[size-1-i] = str[i];
+		}
+		
+		return rev;
+	}
+	
+	CODE TO TURN LITTLE-ENDIAN TO BIG-ENDIAN:
+	uint32_t little = 0xABCDEF12; // 0x12EFCDAB
+	
+	uint32_t MASK1 = 0xFF000000;
+	
+	unit32_t big = (little >> 24) | (0xFF);
+		
+	
+	BOOT SEQUENCE
+	
+	structure padding ?? 
+	
+	const variable in structure -> ??
+	
+	static variable in structure -> No, static is defined in data segment, struct on stack -> conflict
+	
+	register global variable -> No, compiler wont allow as global variable would block a register for whole program life-time
+	
+
+	
+	
+	HOW TO TEST IF A 32 BIT DATA IS +/- -> ((A >> 31) & 1)
+	
+	ARM cortex arch. -> No. of registers in ARM
+	
+
+
+scheduling, process synchronization, inter-process communication, memory management, interrupt handling, DMAs, OS and RTOS concepts
+
+OOP concepts, Static functions, virtual functions, virtual address and physical address, paging etc.
+
+Atoi conversion
+
+Delete a node from binary search tree
+
+Algorithms, DFS, BFS, Class and inheritance, graph theory, EDA tools, C++ and STL, What is the map in STL?
+
+reverse a linked list
+
+Directory crawler in C++ -> Use DFS or BFS
+
+Hex to bin in C++
+
+Resource Acquisition Is Initialization RAII in C++
+
+Difference between task and function, inter assignment and intra assignment statement, flipflop and latch,
+
+Swap bits in pairs
+
+Detect little endian vs big endian? 
+
+What is the response time of a JK FF called?
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
     Gajanan Jewalikar - Manager at Capgemini India 
 	gajanan.jewalikar@capgemini.com
